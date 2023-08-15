@@ -1,0 +1,85 @@
+#ct {
+}
+
+/*--------------------Secao do Hero----------------*/
+#hero {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding-inline: 27%;
+   background-image: linear-gradient(#fff, #efefef);
+}
+
+#hero > #left {
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: left;
+}
+
+#hero > #right {
+   text-align: end;
+}
+
+#hero > #left > h2 {
+   font-weight: 600;
+   font-size: 32px;
+}
+
+#hero > #left > p {
+   margin-top: 1em;
+   font-size: 1.2em;
+   color: var(--cor-texto2);
+}
+
+/*--------------------Secao do Body----------------*/
+#body {
+   text-align: center;
+   padding-top: 3em;
+}
+
+#body > h3 {
+   color: #ff66c8;
+   font-size: 2em;
+}
+
+#body > p {
+   color: var(--cor-texto2);
+   margin-bottom: 4em;
+}
+
+#body > h5 {
+   font-size: 2.7em;
+   font-weight: 600;
+}
+
+#body > span {
+   font-size: 1.6em;
+}
+
+#body > div {
+   margin-block: 3em;
+}
+
+#saibaBtn,
+#buyBtn {
+   border-radius: 20px;
+   border: 1px solid black;
+   transition: all 100ms ease-in-out;
+
+   background-image: none;
+   padding: 7px 3.5em;
+   font-weight: 500;
+}
+
+#saibaBtn {
+   margin-right: 0.8em;
+   background-color: #fff;
+}
+
+#buyBtn {
+   background-color: black;
+   color: white;
+}
+
+#body > img {
+}
