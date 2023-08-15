@@ -1,13 +1,20 @@
-import React from 'react'
-import styles from "./Header.module.css"
-import logo from "../../assets/logoReal.png"
+import React from "react";
+import styles from "./Header.module.css";
+import logo from "../../assets/logoReal.png";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  return (
-    <header id={styles.ct}>
-      <img src={logo} alt="logo " />
-    </header>
-  )
-}
+   const navegar = useNavigate();
+   return (
+      <header
+         id={styles.ct}
+         onClick={() => {
+            navegar("/");
+         }}
+      >
+         <img src={logo} alt="logo " />
+      </header>
+   );
+};
 
-export default Header
+export default Header;

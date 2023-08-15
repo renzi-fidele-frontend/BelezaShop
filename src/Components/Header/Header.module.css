@@ -1,9 +1,12 @@
 #ct {
-    padding-inline: var(--pad-geral);
-    padding-block: 1em;
+   padding-inline: var(--pad-geral);
+   padding-block: 1em;
 }
 
 #ct > img {
-    width: 120px;
+   width: 120px;
 }
 
+#ct > img:hover {
+   cursor: pointer;
+}
