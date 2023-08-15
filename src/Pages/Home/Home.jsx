@@ -32,7 +32,7 @@ const Home = () => {
                <Link id={styles.saibaBtn}>Saiba mais</Link>
                <Link id={styles.buyBtn}>Compre agora</Link>
             </div>
-            <img src={produto} alt="" />
+            <img src={produto} alt="oculos beleza" />
          </div>
       </div>
    );

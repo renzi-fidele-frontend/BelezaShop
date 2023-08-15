@@ -1,0 +1,26 @@
+#ct {
+   border-top: 1px solid rgb(218, 218, 218);
+   padding-inline: var(--pad-geral);
+}
+
+#cima {
+   display: flex;
+   padding-block: 1em;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#cima > #left > a {
+   margin-right: 1.1em;
+}
+
+#cima > #left > a:hover {
+    text-decoration: underline;
+}
+
+#cima > #right > a {
+    margin-left: 1em;
+    font-size: 1.5em;
+    line-height: 1px;
+}
