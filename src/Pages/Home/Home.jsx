@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./Home.module.css";
 import lady from "../../assets/heroLady.png";
 import { Link } from "react-router-dom";
-import produto from "../../assets/ativo.png"
+import produto from "../../assets/ativo.png";
+import produto2 from "../../assets/ativo3.png";
 
 const Home = () => {
    return (
@@ -24,15 +25,18 @@ const Home = () => {
 
          {/*Secao do Body */}
          <div id={styles.body}>
-            <h3>Beleza</h3>
+            <h3 className={styles.titulo2}>Beleza</h3>
             <p>All Black</p>
-            <h5>O verdadeiro óculos de blogueira.</h5>
-            <span>E muito melhor do que qualquer outro da internet.</span>
+            <h5 className={styles.tit}>O verdadeiro óculos de blogueira.</h5>
+            <span className={styles.subtit}>E muito melhor do que qualquer outro da internet.</span>
             <div>
-               <Link id={styles.saibaBtn}>Saiba mais</Link>
+               <Link to={"/oculos-beleza"} id={styles.saibaBtn}>
+                  Saiba mais
+               </Link>
                <Link id={styles.buyBtn}>Compre agora</Link>
             </div>
             <img src={produto} alt="oculos beleza" />
+            <img src={produto2} alt="oculos beleza 2" />
          </div>
       </div>
    );

@@ -1,0 +1,76 @@
+#ct {
+   text-align: center;
+   padding-inline: 31%;
+}
+
+#body {
+   margin-block: 3em;
+}
+
+.secao {
+   margin-bottom: 5em;
+}
+
+.secao > p {
+   color: var(--cor-texto2);
+   font-size: 20px;
+   margin-top: 2em;
+   font-weight: 500;
+   line-height: 18px;
+}
+
+.secao > h4 {
+   margin-top: 5%;
+   margin-bottom: 1%;
+}
+
+#opcoes {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#opcoes > p {
+   position: relative;
+   padding: 30px;
+   border-radius: 50%;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all ease .2s;
+}
+
+#opcoes > p:hover {
+   cursor: pointer;
+}
+
+#opcoes > p > span {
+   position: absolute;
+   padding: 25px;
+   border-radius: 50%;
+}
+
+.btnAtivo {
+   background-color: var(--cor-tema);
+   border: 1px solid var(--cor-tema) !important;
+   box-shadow: 0px 0px 5px var(--cor-tema);
+
+}
+
+#imgsCont {
+    margin-top: 3em;
+}
+
+#produto1 {
+   margin-right: 1em;
+}
+
+#produto1 > span {
+   background-color: black;
+}
+
+#produto2 > span {
+   background-color: rgb(65, 65, 65);
+}

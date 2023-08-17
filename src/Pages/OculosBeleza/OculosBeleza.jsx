@@ -1,0 +1,112 @@
+import React, { useEffect, useRef, useState } from "react";
+import styles from "./OculosBeleza.module.css";
+import estiloHome from "../Home/Home.module.css";
+import produto from "../../assets/ativo.png";
+import produto2 from "../../assets/ativo3.png";
+import { Link, useLocation } from "react-router-dom";
+
+const OculosBeleza = () => {
+   const loc = useLocation();
+   const [imgAmostrar, setImgAmostrar] = useState(1);
+
+   // Refs
+   const btn1 = useRef();
+   const btn2 = useRef();
+
+   useEffect(() => {
+      console.log(useLocation.state);
+   }, [useLocation.state]);
+
+   return (
+      <div id={styles.ct}>
+         <h3 className={estiloHome.titulo2}>Beleza</h3>
+         <p>All Black</p>
+         <div id={styles.body}>
+            {/*------------Seção 1------------- */}
+            <div className={styles.secao}>
+               <h5 className={estiloHome.tit}>Um óculos especial.</h5>
+               <h6 className={estiloHome.subtit}>Para pessoas especiais.</h6>
+               <p>
+                  O Beleza All Black é uma peça de excelência artesanal feita em acetato selecionado da Itália com acabamento em linda cor preta
+                  que brilha com a luz. Um óculos único, criado para quem aprecia a beleza da moda.
+               </p>
+               <div id={styles.imgsCont}>
+                  {imgAmostrar === 1 && <img src={produto} alt="produto 1" />}
+                  {imgAmostrar === 2 && <img src={produto2} alt="produto 2" />}
+               </div>
+
+               <h4>Tipo</h4>
+               <div id={styles.opcoes}>
+                  <p
+                     ref={btn1}
+                     id={styles.produto1}
+                     className={styles.btnAtivo}
+                     onClick={() => {
+                        setImgAmostrar(1);
+                        btn1.current.classList.add(styles.btnAtivo);
+                        btn2.current.classList.remove(styles.btnAtivo);
+                     }}
+                  >
+                     <span></span>
+                  </p>
+                  <p
+                     ref={btn2}
+                     id={styles.produto2}
+                     onClick={() => {
+                        setImgAmostrar(2);
+                        btn1.current.classList.remove(styles.btnAtivo);
+                        btn2.current.classList.add(styles.btnAtivo);
+                     }}
+                  >
+                     <span></span>
+                  </p>
+               </div>
+            </div>
+
+            {/*------------Seção 2------------- */}
+            <div className={styles.secao}>
+               <h5 className={estiloHome.tit}>Um design versátil.</h5>
+               <h6 className={estiloHome.subtit}>Que nunca sai de moda.</h6>
+               <p>
+                  O Beleza All Black é muito versátil e combina com todo tipo de look e ocasião. Um companheiro que vai estar com você em todos
+                  os momentos especiais da sua vida.
+               </p>
+            </div>
+
+            {/*------------Seção 3------------- */}
+            <div className={styles.secao}>
+               <h5 className={estiloHome.tit}>Não é só estilo.</h5>
+               <h6 className={estiloHome.subtit}>Protegemos os seus olhos.</h6>
+               <p>
+                  O Beleza All Black possui tecnologia avançada em proteção contra os raios solares. O Brasil é o país que mais recebe irradiação
+                  solar em todo o mundo e é por isso que focamos tanto no cuidado dos seus olhos com lentes protegidas em UV400.
+               </p>
+            </div>
+
+            {/*------------Seção 4------------- */}
+            <div className={styles.secao}>
+               <h5 className={estiloHome.tit}>Feito à mão.</h5>
+               <h6 className={estiloHome.subtit}>Pelos melhores mestres artesãos.</h6>
+               <p>
+                  O Beleza All Black é uma peça de excelência artesanal com um acabamento muito superior ao de qualquer outro óculos da internet.
+                  Sua produção é feita na Itália pelos mestres artesãos da moda, os melhores do mundo, por isso seu material é resistente à
+                  quedas e riscos.
+               </p>
+            </div>
+
+            {/*------------Seção 5------------- */}
+            <div className={styles.secao}>
+               <h5 className={estiloHome.tit}>O óculos mais bem avaliado do Brasil.</h5>
+               <h6 className={estiloHome.subtit}>Quem já comprou, adorou.</h6>
+               <p>
+                  O Beleza All Black conquistou o coração de + 1.700 clientes e já é o mais bem avaliado do Brasil. São milhares de avaliações
+                  excelentes de clientes de todo o país recomendando o Beleza All Black. (abaixo mostrar os todos os depoimentos com formato de
+                  passar para o lado)
+               </p>
+            </div>
+         </div>
+      </div>
+   );
+};
+
+export default OculosBeleza;
