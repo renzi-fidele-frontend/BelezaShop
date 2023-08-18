@@ -2,7 +2,17 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "./OculosBeleza.module.css";
 import estiloHome from "../Home/Home.module.css";
 import produto from "../../assets/ativo.png";
-import produto2 from "../../assets/ativo3.png";
+import produto2 from "../../assets/ativo2.png";
+import mulher1 from "../../assets/realwomen1.jpg";
+import mulher2 from "../../assets/realwomen.jpg";
+import mulher3 from "../../assets/produto3.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { EffectCoverFlow, Pagination, Navigation } from "swiper";
+
 import { Link, useLocation } from "react-router-dom";
 
 const OculosBeleza = () => {
@@ -23,7 +33,7 @@ const OculosBeleza = () => {
          <p>All Black</p>
          <div id={styles.body}>
             {/*------------Seção 1------------- */}
-            <div className={styles.secao}>
+            <div className={styles.secao} style={{ borderBottom: "1px solid rgb(218, 218, 218)" }}>
                <h5 className={estiloHome.tit}>Um óculos especial.</h5>
                <h6 className={estiloHome.subtit}>Para pessoas especiais.</h6>
                <p>
@@ -64,27 +74,33 @@ const OculosBeleza = () => {
             </div>
 
             {/*------------Seção 2------------- */}
-            <div className={styles.secao}>
+            <div className={styles.secao} style={{ borderBottom: "1px solid rgb(218, 218, 218)" }}>
                <h5 className={estiloHome.tit}>Um design versátil.</h5>
                <h6 className={estiloHome.subtit}>Que nunca sai de moda.</h6>
                <p>
                   O Beleza All Black é muito versátil e combina com todo tipo de look e ocasião. Um companheiro que vai estar com você em todos
                   os momentos especiais da sua vida.
                </p>
+               <div className={styles.imgCont}>
+                  <img src={mulher1} alt="" />
+               </div>
             </div>
 
             {/*------------Seção 3------------- */}
-            <div className={styles.secao}>
+            <div className={styles.secao} style={{ borderBottom: "1px solid rgb(218, 218, 218)" }}>
                <h5 className={estiloHome.tit}>Não é só estilo.</h5>
                <h6 className={estiloHome.subtit}>Protegemos os seus olhos.</h6>
                <p>
                   O Beleza All Black possui tecnologia avançada em proteção contra os raios solares. O Brasil é o país que mais recebe irradiação
                   solar em todo o mundo e é por isso que focamos tanto no cuidado dos seus olhos com lentes protegidas em UV400.
                </p>
+               <div className={styles.imgCont}>
+                  <img src={mulher2} alt="" />
+               </div>
             </div>
 
             {/*------------Seção 4------------- */}
-            <div className={styles.secao}>
+            <div className={styles.secao} style={{ borderBottom: "1px solid rgb(218, 218, 218)" }}>
                <h5 className={estiloHome.tit}>Feito à mão.</h5>
                <h6 className={estiloHome.subtit}>Pelos melhores mestres artesãos.</h6>
                <p>
@@ -92,6 +108,9 @@ const OculosBeleza = () => {
                   Sua produção é feita na Itália pelos mestres artesãos da moda, os melhores do mundo, por isso seu material é resistente à
                   quedas e riscos.
                </p>
+               <div className={styles.imgCont}>
+                  <img src={mulher3} alt="" />
+               </div>
             </div>
 
             {/*------------Seção 5------------- */}

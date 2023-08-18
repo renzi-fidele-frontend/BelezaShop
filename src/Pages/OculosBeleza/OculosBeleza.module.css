@@ -1,6 +1,5 @@
 #ct {
    text-align: center;
-   padding-inline: 31%;
 }
 
 #body {
@@ -9,6 +8,12 @@
 
 .secao {
    margin-bottom: 5em;
+   padding-inline: 31%;
+   padding-bottom: 4em;
+}
+
+.secao > .imgCont {
+   margin-top: 4em;
 }
 
 .secao > p {
@@ -16,7 +21,7 @@
    font-size: 20px;
    margin-top: 2em;
    font-weight: 500;
-   line-height: 18px;
+   line-height: 25px;
 }
 
 .secao > h4 {
@@ -33,13 +38,13 @@
 
 #opcoes > p {
    position: relative;
-   padding: 30px;
+   padding: 24px;
    border-radius: 50%;
    border: 1px solid black;
    display: flex;
    justify-content: center;
    align-items: center;
-   transition: all ease .2s;
+   transition: all ease 0.2s;
 }
 
 #opcoes > p:hover {
@@ -48,19 +53,17 @@
 
 #opcoes > p > span {
    position: absolute;
-   padding: 25px;
+   padding: 21px;
    border-radius: 50%;
 }
 
 .btnAtivo {
    background-color: var(--cor-tema);
    border: 1px solid var(--cor-tema) !important;
-   box-shadow: 0px 0px 5px var(--cor-tema);
-
 }
 
 #imgsCont {
-    margin-top: 3em;
+   margin-top: 3em;
 }
 
 #produto1 {
