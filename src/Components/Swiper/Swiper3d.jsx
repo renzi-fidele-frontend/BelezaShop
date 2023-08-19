@@ -36,6 +36,7 @@ const Swiper3d = () => {
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
+
             slidesPerView={4}
             coverflowEffect={{
                rotate: 0,
@@ -49,7 +50,7 @@ const Swiper3d = () => {
          >
             {imagens.map((v, key) => {
                return (
-                  <SwiperSlide className={styles.slide}>
+                  <SwiperSlide  className={styles.slide}>
                      <img className={styles.img} src={v} alt="Imagem do slide" />
                   </SwiperSlide>
                );

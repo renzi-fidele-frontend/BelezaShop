@@ -134,7 +134,7 @@ const OculosBeleza = () => {
          <div id={styles.oferta}>
             <h6>Compre online.</h6>
             <p>Sem sair de casa.</p>
-            <Link to={"comprar"} id={estiloHome.buyBtn}>Compre agora </Link>
+            <Link to={"/comprar/beleza-oculos"} id={estiloHome.buyBtn}>Compre agora </Link>
          </div>
       </div>
    );

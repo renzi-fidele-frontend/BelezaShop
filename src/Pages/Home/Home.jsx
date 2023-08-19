@@ -33,7 +33,9 @@ const Home = () => {
                <Link to={"/oculos-beleza"} id={styles.saibaBtn}>
                   Saiba mais
                </Link>
-               <Link id={styles.buyBtn}>Compre agora</Link>
+               <Link id={styles.buyBtn} to={"/comprar"}>
+                  Compre agora
+               </Link>
             </div>
             <img src={produto} alt="oculos beleza" />
          </div>
