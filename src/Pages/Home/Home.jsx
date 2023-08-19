@@ -36,7 +36,6 @@ const Home = () => {
                <Link id={styles.buyBtn}>Compre agora</Link>
             </div>
             <img src={produto} alt="oculos beleza" />
-            <img src={produto2} alt="oculos beleza 2" />
          </div>
       </div>
    );

@@ -12,8 +12,10 @@
 }
 
 #cima > #left > a {
-   margin-right: 1.1em;
+   margin-right: 1.2em;
+   font-size: 16px;
 }
+
 
 #cima > #left > a:hover {
    text-decoration: underline;
@@ -39,6 +41,7 @@
 #baixo > #left > h1 {
    color: var(--cor-tema);
    font-size: 1.3em;
+   font-family: "Avenir-Heavy";
    margin-bottom: 0.2em;
 }
 

@@ -6,14 +6,10 @@ import produto2 from "../../assets/ativo2.png";
 import mulher1 from "../../assets/realwomen1.jpg";
 import mulher2 from "../../assets/realwomen.jpg";
 import mulher3 from "../../assets/produto3.png";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { EffectCoverFlow, Pagination, Navigation } from "swiper";
+import star from "../../assets/star.svg";
 
 import { Link, useLocation } from "react-router-dom";
+import Swiper3d from "../../Components/Swiper/Swiper3d";
 
 const OculosBeleza = () => {
    const loc = useLocation();
@@ -114,7 +110,15 @@ const OculosBeleza = () => {
             </div>
 
             {/*------------Seção 5------------- */}
-            <div className={styles.secao}>
+            <div className={styles.secao} style={{ paddingBottom: "0", marginBottom: "2.5em" }}>
+               <ul>
+                  <img src={star} alt="" />
+                  <img src={star} alt="" />
+                  <img src={star} alt="" />
+                  <img src={star} alt="" />
+                  <img src={star} alt="" />
+               </ul>
+               <h2>Média 5,0 de 5,0</h2>
                <h5 className={estiloHome.tit}>O óculos mais bem avaliado do Brasil.</h5>
                <h6 className={estiloHome.subtit}>Quem já comprou, adorou.</h6>
                <p>
@@ -123,6 +127,14 @@ const OculosBeleza = () => {
                   passar para o lado)
                </p>
             </div>
+            <Swiper3d />
+         </div>
+         <h3 className={estiloHome.titulo2}>Beleza</h3>
+         <p>All Black</p>
+         <div id={styles.oferta}>
+            <h6>Compre online.</h6>
+            <p>Sem sair de casa.</p>
+            <Link to={"comprar"} id={estiloHome.buyBtn}>Compre agora </Link>
          </div>
       </div>
    );
