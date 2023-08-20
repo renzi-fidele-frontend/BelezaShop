@@ -26,7 +26,7 @@ const OculosBeleza = () => {
    return (
       <div id={styles.ct}>
          <h3 className={estiloHome.titulo2}>Beleza</h3>
-         <p>All Black</p>
+         <p className={estiloHome.subtit2}>All Black</p>
          <div id={styles.body}>
             {/*------------Seção 1------------- */}
             <div className={styles.secao} style={{ borderBottom: "1px solid var(--cor-borda)" }}>
@@ -130,7 +130,7 @@ const OculosBeleza = () => {
             <Swiper3d />
          </div>
          <h3 className={estiloHome.titulo2}>Beleza</h3>
-         <p>All Black</p>
+         <p className={estiloHome.subtit2}>All Black</p>
          <div id={styles.oferta}>
             <h6 className={styles.tit2}>Compre online.</h6>
             <p className={styles.subtit2}>Sem sair de casa.</p>

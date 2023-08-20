@@ -3,9 +3,6 @@
    padding-bottom: 5em;
 }
 
-#ct > p {
-   color: (var(--cor-texto2));
-}
 
 #body {
    margin-top: 3em;
@@ -41,7 +38,7 @@
 }
 
 .secao > h6 {
-   margin-top: 0.2em;
+   margin-top: 0.1em;
 }
 
 .secao > p {

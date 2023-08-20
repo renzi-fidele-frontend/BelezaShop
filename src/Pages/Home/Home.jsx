@@ -26,7 +26,7 @@ const Home = () => {
          {/*Secao do Body */}
          <div id={styles.body}>
             <h3 className={styles.titulo2}>Beleza</h3>
-            <p>All Black</p>
+            <p className={styles.subtit2}>All Black</p>
             <h5 className={styles.tit}>O verdadeiro óculos de blogueira.</h5>
             <span className={styles.subtit}>E muito melhor do que qualquer outro da internet.</span>
             <div>

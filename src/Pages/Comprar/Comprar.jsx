@@ -8,7 +8,7 @@ import produto2 from "../../assets/ativo2.png";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
-   const [cor, setCor] = useState("Acetato Importado Italiano")
+   const [cor, setCor] = useState("Acetato Importado Italiano");
 
    // Refs
    const btn1 = useRef();
@@ -19,7 +19,7 @@ const Comprar = () => {
          <div id={styles.cima}>
             <div id={styles.left}>
                <h3 className={estiloHome.titulo2}>Beleza</h3>
-               <p>All Black</p>
+               <p className={estiloHome.subtit2}>All Black</p>
                <img src={imgProduto} alt="" />
             </div>
             <div id={styles.right}>
@@ -34,7 +34,7 @@ const Comprar = () => {
                      className={estiloBeleza.btnAtivo}
                      onClick={() => {
                         setImgAmostrar(1);
-                        setCor("Preto Brilhante")
+                        setCor("Preto Brilhante");
                         btn1.current.classList.add(estiloBeleza.btnAtivo);
                         btn2.current.classList.remove(estiloBeleza.btnAtivo);
                      }}
@@ -46,7 +46,7 @@ const Comprar = () => {
                      id={estiloBeleza.produto2}
                      onClick={() => {
                         setImgAmostrar(2);
-                        setCor("Acetato Importado Italiano")
+                        setCor("Acetato Importado Italiano");
                         btn1.current.classList.remove(estiloBeleza.btnAtivo);
                         btn2.current.classList.add(estiloBeleza.btnAtivo);
                      }}
@@ -54,9 +54,17 @@ const Comprar = () => {
                      <span></span>
                   </p>
                </div>
-               <h5>Cor</h5>
-               
 
+               <h5>Acompanha Case</h5>
+               <p>Branco nuvem</p>
+               <h5>Garantia de 2 anos</h5>
+               <p>Seguro autorizado</p>
+               <h5>Medidas:</h5>
+               <p>
+                  Formato: Quadrado Largura da lente: 5 cm Altura da lente: 3,5 cm Ponte: 1,5 cm Comprimento Haste: 14,5 cm Largura Total: 15 cm
+               </p>
+               <h5>Garantia de 2 anos</h5>
+               <p>Seguro autorizado</p>
             </div>
          </div>
       </div>
