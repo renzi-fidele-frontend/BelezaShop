@@ -29,7 +29,7 @@ const OculosBeleza = () => {
          <p>All Black</p>
          <div id={styles.body}>
             {/*------------Seção 1------------- */}
-            <div className={styles.secao} style={{ borderBottom: "1px solid rgb(218, 218, 218)" }}>
+            <div className={styles.secao} style={{ borderBottom: "1px solid var(--cor-borda)" }}>
                <h5 className={estiloHome.tit}>Um óculos especial.</h5>
                <h6 className={estiloHome.subtit}>Para pessoas especiais.</h6>
                <p>
@@ -70,7 +70,7 @@ const OculosBeleza = () => {
             </div>
 
             {/*------------Seção 2------------- */}
-            <div className={styles.secao} style={{ borderBottom: "1px solid rgb(218, 218, 218)" }}>
+            <div className={styles.secao} style={{ borderBottom: "1px solid var(--cor-borda)" }}>
                <h5 className={estiloHome.tit}>Um design versátil.</h5>
                <h6 className={estiloHome.subtit}>Que nunca sai de moda.</h6>
                <p>
@@ -83,7 +83,7 @@ const OculosBeleza = () => {
             </div>
 
             {/*------------Seção 3------------- */}
-            <div className={styles.secao} style={{ borderBottom: "1px solid rgb(218, 218, 218)" }}>
+            <div className={styles.secao} style={{ borderBottom: "1px solid var(--cor-borda)" }}>
                <h5 className={estiloHome.tit}>Não é só estilo.</h5>
                <h6 className={estiloHome.subtit}>Protegemos os seus olhos.</h6>
                <p>
@@ -96,7 +96,7 @@ const OculosBeleza = () => {
             </div>
 
             {/*------------Seção 4------------- */}
-            <div className={styles.secao} style={{ borderBottom: "1px solid rgb(218, 218, 218)" }}>
+            <div className={styles.secao} style={{ borderBottom: "1px solid var(--cor-borda)" }}>
                <h5 className={estiloHome.tit}>Feito à mão.</h5>
                <h6 className={estiloHome.subtit}>Pelos melhores mestres artesãos.</h6>
                <p>
@@ -132,9 +132,11 @@ const OculosBeleza = () => {
          <h3 className={estiloHome.titulo2}>Beleza</h3>
          <p>All Black</p>
          <div id={styles.oferta}>
-            <h6>Compre online.</h6>
-            <p>Sem sair de casa.</p>
-            <Link to={"/comprar/beleza-oculos"} id={estiloHome.buyBtn}>Compre agora </Link>
+            <h6 className={styles.tit2}>Compre online.</h6>
+            <p className={styles.subtit2}>Sem sair de casa.</p>
+            <Link to={"/comprar/beleza-oculos"} id={estiloHome.buyBtn}>
+               Compre agora{" "}
+            </Link>
          </div>
       </div>
    );

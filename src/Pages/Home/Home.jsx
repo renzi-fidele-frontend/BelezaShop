@@ -33,7 +33,7 @@ const Home = () => {
                <Link to={"/oculos-beleza"} id={styles.saibaBtn}>
                   Saiba mais
                </Link>
-               <Link id={styles.buyBtn} to={"/comprar"}>
+               <Link id={styles.buyBtn} to={"/comprar/beleza-oculos"}>
                   Compre agora
                </Link>
             </div>
