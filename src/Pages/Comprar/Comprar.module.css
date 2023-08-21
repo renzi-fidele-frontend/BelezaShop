@@ -33,9 +33,15 @@
 }
 
 #cima > #right > h5 {
-    font-family: "Avenir-Heavy";
+    font-family: "Avenir-heavy";
     margin-top: 1em;
     font-size: 20px;
+}
+
+#cima > #right > h5 > span{
+    font-family: "Avenir-book";
+    font-size: 16px;
+    color: var(--cor-texto2);
 }
 
 #cima > #right > p {
@@ -47,4 +53,15 @@
 .opcoes > P::after {
     display: none;
     color: var(--cor-texto2);
+}
+
+
+#verde {
+    color: #00a000 !important;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+#verde > svg {
+    margin-right: 5px;
 }

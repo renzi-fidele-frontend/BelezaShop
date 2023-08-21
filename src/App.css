@@ -5,14 +5,14 @@
    margin: 0;
    box-sizing: border-box;
    font-family: "Avenir-book";
-   color: var(--cor-texto);
-   font-weight: normal;  
+   font-weight: normal;
 }
 
 a {
    text-decoration: none;
-
+   color: var(--cor-texto);
 }
 
 .App {
+   color: var(--cor-texto);
 }

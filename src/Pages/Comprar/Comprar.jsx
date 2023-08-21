@@ -5,6 +5,8 @@ import estiloHome from "../Home/Home.module.css";
 import imgProduto from "../../assets/IMG_3982.webp";
 import produto from "../../assets/ativo.png";
 import produto2 from "../../assets/ativo2.png";
+import { BsInfoCircle } from "react-icons/bs";
+import { color } from "framer-motion";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
@@ -61,10 +63,18 @@ const Comprar = () => {
                <p>Seguro autorizado</p>
                <h5>Medidas:</h5>
                <p>
-                  Formato: Quadrado Largura da lente: 5 cm Altura da lente: 3,5 cm Ponte: 1,5 cm Comprimento Haste: 14,5 cm Largura Total: 15 cm
+                  Formato: Quadrado + Largura da lente: 5 cm + Altura da lente: 3,5 cm + Ponte: 1,5 cm + Comprimento Haste: 14,5 cm + Largura
+                  Total: 15 cm
                </p>
-               <h5>Garantia de 2 anos</h5>
-               <p>Seguro autorizado</p>
+               <h5>
+                  R$ 49,99 <span> em até 2x sem juros</span>
+               </h5>
+               <p id={styles.verde}>
+                  <BsInfoCircle />
+                  <span>Entrega mais rápida do Brasil.</span>
+               </p>
+              
+             
             </div>
          </div>
       </div>

@@ -69,6 +69,8 @@
 .subtit {
    font-size: 32px;
    font-weight: normal;
+   letter-spacing: -0.1px;
+
 }
 
 #body > div {
@@ -82,14 +84,15 @@
    border: 1px solid black;
    transition: all 100ms ease-in-out;
    background-image: none;
-   padding: 8px 3.5em;
+   padding: 11px 3.5em;
+   letter-spacing: -0.1px;
    font-weight: 500;
    font-family: "Avenir-medium";
-   font-size: 19px;
+   font-size: 16px;
 }
 
 #saibaBtn {
-   margin-right: 0.8em;
+   margin-right: 0.9em;
    background-color: #fff;
 }
 
