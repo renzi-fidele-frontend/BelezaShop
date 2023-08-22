@@ -2,7 +2,20 @@ summary {
    list-style-type: "";
 }
 
-#sum  {
+details[open] summary ~ * {
+   animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+#sum {
    margin-top: 2em;
 }
 
@@ -39,18 +52,17 @@ summary:hover {
    letter-spacing: -0.06em;
    color: rgba(0, 0, 0, 0.87);
    text-align: left;
-   
 }
 
-#faq > details  p {
-    margin-top: 1.1em;
-    font-size: 16px;
+#faq > details p {
+   margin-top: 1.1em;
+   font-size: 16px;
 }
 
 #faqDentro {
-    margin-bottom: 2em;
+   margin-bottom: 2em;
 }
 
 #primeiro {
-    margin-top: 3em !important;
+   margin-top: 3em !important;
 }
