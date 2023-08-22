@@ -8,6 +8,7 @@ import produto2 from "../../assets/ativo2.png";
 import { BsBoxSeam, BsInfoCircle, BsChat } from "react-icons/bs";
 import { PiSealCheckLight } from "react-icons/pi";
 import { color } from "framer-motion";
+import Acordeao from "../../Components/Acordeao/Acordeao";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
@@ -102,6 +103,10 @@ const Comprar = () => {
                   <a href="#">Fale com a Beleza</a>
                </div>
             </div>
+         </div>
+
+         <div id={styles.last}>
+            <Acordeao/>
          </div>
       </div>
    );
