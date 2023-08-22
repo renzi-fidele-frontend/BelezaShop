@@ -1,0 +1,19 @@
+.tit3 {
+   letter-spacing: -0.06em;
+   font-family: "Avenir-Heavy";
+   font-size: 44px;
+}
+
+#ct {
+    padding-inline: 30%;
+}
+
+#ct > h5 {
+    margin-bottom: .8em;
+}
+
+#ct > p {
+    margin-top: .7em;
+    font-size: 20px;
+    line-height: 1.4;
+}

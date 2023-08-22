@@ -53,7 +53,7 @@ const Acordeao = () => {
                <p>Claro. Compre para uso pessoal ou para ganhar uma renda extra com 100% de lucro.</p>
             </details>
 
-            <details>
+            <details id={styles.ultimo}>
                <summary>Possui proteção?</summary>
                <p>Sim, possui a mais alta proteção UV400 existente em óculos solares.</p>
             </details>

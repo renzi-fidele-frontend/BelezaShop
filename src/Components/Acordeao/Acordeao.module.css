@@ -9,14 +9,12 @@ details[open] summary ~ * {
 @keyframes sweep {
    0% {
       opacity: 0;
+      transform: translateX(-10px);
    }
    100% {
       opacity: 1;
+      transform: translateX(0px);
    }
-}
-
-#sum {
-   margin-top: 2em;
 }
 
 summary:hover {
@@ -26,6 +24,8 @@ summary:hover {
 #sum {
    display: flex;
    flex-flow: row nowrap;
+   border-top: 1px solid var(--cor-borda);
+   padding-block: 18px;
 }
 
 #sum > svg {
@@ -35,7 +35,6 @@ summary:hover {
 }
 
 #faq {
-   margin-top: 2em;
 }
 
 #faq > details {
@@ -65,4 +64,8 @@ summary:hover {
 
 #primeiro {
    margin-top: 3em !important;
+}
+
+#ultimo {
+   margin-bottom: 3em;
 }

@@ -16,4 +16,8 @@ a {
 .App {
    color: var(--cor-texto);
    letter-spacing: -0.040em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100vh;
 }
