@@ -114,3 +114,12 @@
 #last {
     margin-top: 7em;
 }
+
+#antes {
+   color: red !important;
+   text-decoration: line-through;
+   line-height: 5px;
+   font-family: "Avenir-Heavy" !important;
+   font-size: 20px !important;
+   margin-right: 7px;
+}

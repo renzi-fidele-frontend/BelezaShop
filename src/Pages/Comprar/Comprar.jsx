@@ -69,7 +69,7 @@ const Comprar = () => {
                   Total: 15 cm
                </p>
                <h5>
-                  R$ 49,99 <span> em até 2x sem juros</span>
+                  <span id={styles.antes}>De R$ 129,99</span> Por R$ 49,99 <span> em até 2x sem juros</span>
                </h5>
                <p id={styles.verde}>
                   <BsInfoCircle />
@@ -106,7 +106,7 @@ const Comprar = () => {
          </div>
 
          <div id={styles.last}>
-            <Acordeao/>
+            <Acordeao />
          </div>
       </div>
    );

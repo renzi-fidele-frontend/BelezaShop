@@ -23,34 +23,39 @@ const Acordeao = () => {
                <AiOutlineMessage />
                <span className={estiloBeleza.tit2}>Perguntas frequentes</span>{" "}
             </summary>
-            <details>
-               <summary>Qual é o preço do frete?</summary>O envio é padrão. O valor do envio padrão é de R$20 para todo o Brasil, independente da
-               região.
+            <details id={styles.primeiro}>
+               <summary>Qual é o preço do frete?</summary>
+               <p>O envio é padrão. O valor do envio padrão é de R$20 para todo o Brasil, independente da região.</p>
             </details>
 
             <details>
-               <summary>Qual o prazo de entrega?</summary>Enviamos via Correios para todo Brasil. O prazo de entrega depende da sua região.
+               <summary>Qual o prazo de entrega?</summary>
+               <p>Enviamos via Correios para todo Brasil. O prazo de entrega depende da sua região.</p>
             </details>
 
             <details>
-               <summary>Possui frete grátis?</summary>Sim, a partir de 2 óculos ganhe frete grátis.
+               <summary>Possui frete grátis?</summary>
+               <p>Sim, a partir de 2 óculos ganhe frete grátis.</p>
             </details>
 
             <details>
-               <summary>Qual o tipo de rosto ideal?</summary>A medida é padrão e combina com todos os tipos de rostos.
+               <summary>Qual o tipo de rosto ideal?</summary>
+               <p>A medida é padrão e combina com todos os tipos de rostos.</p>
             </details>
 
             <details>
-               <summary>O Beleza All Black é Unissex?</summary>Sim, Beleza All Black foi feito para homens e mulheres.
+               <summary>O Beleza All Black é Unissex?</summary>
+               <p>Sim, Beleza All Black foi feito para homens e mulheres.</p>
             </details>
 
             <details>
-               <summary>Possui autorização para revenda?</summary>Claro. Compre para uso pessoal ou para ganhar uma renda extra com 100% de
-               lucro.
+               <summary>Possui autorização para revenda?</summary>
+               <p>Claro. Compre para uso pessoal ou para ganhar uma renda extra com 100% de lucro.</p>
             </details>
 
             <details>
-               <summary>Possui proteção?</summary>Sim, possui a mais alta proteção UV400 existente em óculos solares.
+               <summary>Possui proteção?</summary>
+               <p>Sim, possui a mais alta proteção UV400 existente em óculos solares.</p>
             </details>
          </details>
       </div>
