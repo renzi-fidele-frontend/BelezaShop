@@ -5,12 +5,13 @@ import estiloHome from "../Home/Home.module.css";
 import imgProduto from "../../assets/IMG_3982.webp";
 import produto from "../../assets/ativo.png";
 import produto2 from "../../assets/ativo2.png";
-import { BsInfoCircle } from "react-icons/bs";
+import { BsBoxSeam, BsInfoCircle, BsChat } from "react-icons/bs";
+import { PiSealCheckLight } from "react-icons/pi";
 import { color } from "framer-motion";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
-   const [cor, setCor] = useState("Acetato Importado Italiano");
+   const [cor, setCor] = useState("Preto Brilhante");
 
    // Refs
    const btn1 = useRef();
@@ -27,7 +28,7 @@ const Comprar = () => {
             <div id={styles.right}>
                <h3 className={estiloBeleza.tit2}>Frete grátis a partir de 2 óculos.</h3>
                <h5>Cor</h5>
-               <p>{cor}</p>
+               <p>- {cor}</p>
                {/*Opções */}
                <div id={estiloBeleza.opcoes} className={styles.opcoes}>
                   <p
@@ -58,9 +59,9 @@ const Comprar = () => {
                </div>
 
                <h5>Acompanha Case</h5>
-               <p>Branco nuvem</p>
+               <p>- Branco nuvem</p>
                <h5>Garantia de 2 anos</h5>
-               <p>Seguro autorizado</p>
+               <p>- Seguro autorizado</p>
                <h5>Medidas:</h5>
                <p>
                   Formato: Quadrado + Largura da lente: 5 cm + Altura da lente: 3,5 cm + Ponte: 1,5 cm + Comprimento Haste: 14,5 cm + Largura
@@ -73,8 +74,33 @@ const Comprar = () => {
                   <BsInfoCircle />
                   <span>Entrega mais rápida do Brasil.</span>
                </p>
-              
-             
+               <a id={estiloHome.buyBtn} className={styles.buyBtn} href="#">
+                  Compre agora
+               </a>
+            </div>
+         </div>
+
+         <div id={styles.baixo}>
+            <div>
+               <BsBoxSeam />
+               <div>
+                  <p>Troca ou devolução grátis</p>
+                  <span>Fácil e sem burocracia</span>
+               </div>
+            </div>
+            <div>
+               <PiSealCheckLight />
+               <div>
+                  <p>Garantia de 2 anos</p>
+                  <span>Ative quando precisar</span>
+               </div>
+            </div>
+            <div>
+               <BsChat />
+               <div>
+                  <p>Suporte online</p>
+                  <a href="#">Fale com a Beleza</a>
+               </div>
             </div>
          </div>
       </div>

@@ -1,67 +1,112 @@
 #ct {
-    padding-inline: var(--pad-geral);
-    padding-block: 3.5em;
+   padding-inline: var(--pad-geral);
+   padding-block: 3.5em;
 }
 
 #cima {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding-inline: 3em;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding-inline: 1em;
 }
 
 #cima > #left {
-    text-align: center;
+   text-align: center;
 }
 
-#cima > #left > img{
-    margin-top: 2.5em;
-    height: 500px;
+#cima > #left > img {
+   margin-top: 2.5em;
+   height: 524px;
 }
 
 #cima > #right {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    padding-left: 8%;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   padding-left: 8%;
 }
 
 #cima > #right > h3 {
-    border-bottom: 1px solid var(--cor-borda);
-    padding-bottom: .3em;
-    width: 100%;
+   border-bottom: 1px solid var(--cor-borda);
+   padding-bottom: 0.3em;
+   width: 100%;
 }
 
 #cima > #right > h5 {
-    font-family: "Avenir-heavy";
-    margin-top: 1em;
-    font-size: 20px;
+   font-family: "Avenir-heavy";
+   margin-top: 1em;
+   font-size: 20px;
+   letter-spacing: -0.3px;
 }
 
-#cima > #right > h5 > span{
-    font-family: "Avenir-book";
-    font-size: 16px;
-    color: var(--cor-texto2);
+#cima > #right > h5 > span {
+   font-family: "Avenir-book";
+   font-size: 16px;
+   color: var(--cor-texto2);
 }
 
 #cima > #right > p {
-    color: var(--cor-texto2);
-    margin-top: .6em;
-    margin-bottom: .8em;
+   color: var(--cor-texto2);
+   margin-top: 0.3em;
+   margin-bottom: 0.8em;
 }
 
 .opcoes > P::after {
-    display: none;
-    color: var(--cor-texto2);
+   display: none;
+   color: var(--cor-texto2);
 }
-
 
 #verde {
-    color: #00a000 !important;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+   color: #00a000 !important;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
 }
 #verde > svg {
-    margin-right: 5px;
+   margin-right: 5px;
+}
+
+.buyBtn {
+   margin-top: 1em;
+}
+
+#baixo {
+   margin-top: 4em;
+   padding-inline: 17%;
+   display: grid;
+   text-align: center;
+   grid-template-columns: auto auto auto;
+}
+
+#baixo > div {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   text-align: left;
+}
+
+#baixo > div > div {
+   padding-left: 1em;
+}
+
+#baixo > div > svg {
+   font-size: 2em;
+}
+
+#baixo > div > div > p {
+   font-family: "Avenir-Heavy";
+   letter-spacing: -0.06em;
+}
+
+#baixo > div > div > span {
+    margin-top: 1px;
+   color: var(--cor-texto2);
+}
+
+#baixo > div > div > a {
+   color: #007aff;
+}
+
+#baixo > div > div > a:hover {
+   text-decoration: underline;
 }

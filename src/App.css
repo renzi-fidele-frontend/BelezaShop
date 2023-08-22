@@ -15,4 +15,5 @@ a {
 
 .App {
    color: var(--cor-texto);
+   letter-spacing: -0.040em;
 }

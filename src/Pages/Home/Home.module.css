@@ -24,6 +24,7 @@
    font-weight: normal;
    font-family: "Avenir-Heavy";
    font-size: 35px;
+   letter-spacing: -0.06em;
 }
 
 #hero > #left > p {
@@ -58,6 +59,8 @@
    font-family: "Avenir-heavy";
    font-size: 44px;
    font-weight: normal;
+   letter-spacing: -0.06em;
+
 }
 
 .subtit2 {
@@ -69,7 +72,6 @@
 .subtit {
    font-size: 32px;
    font-weight: normal;
-   letter-spacing: -0.1px;
 
 }
 
