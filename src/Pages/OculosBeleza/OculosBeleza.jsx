@@ -9,7 +9,7 @@ import mulher3 from "../../assets/produto3.png";
 import star from "../../assets/star.svg";
 
 import { Link, useLocation } from "react-router-dom";
-import Swiper3d from "../../Components/Swiper/Swiper3d";
+import Swiper3d from "../../Components/Swiper3d/Swiper3d";
 
 const OculosBeleza = () => {
    const loc = useLocation();

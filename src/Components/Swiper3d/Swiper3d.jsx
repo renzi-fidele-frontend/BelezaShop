@@ -27,7 +27,7 @@ import i14 from "../../assets/depoimentos/dp-14.jpg";
 import i15 from "../../assets/depoimentos/dp-15.jpg";
 import i16 from "../../assets/depoimentos/dp-16.jpg";
 
-const Swiper3d = () => {
+const Swiper3d = ({nrFotos=4}) => {
    const imagens = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16];
 
    return (
@@ -36,7 +36,7 @@ const Swiper3d = () => {
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={4}
+            slidesPerView={nrFotos}
             coverflowEffect={{
                rotate: 0,
                stretch: 0,

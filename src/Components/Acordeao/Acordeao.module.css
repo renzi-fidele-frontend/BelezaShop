@@ -1,0 +1,26 @@
+summary {
+   list-style-type: "";
+}
+
+details {
+   margin-top: 2em;
+}
+
+summary:hover {
+   cursor: pointer;
+}
+
+#sum {
+   display: flex;
+   flex-flow: row nowrap;
+}
+
+#sum > svg {
+   margin-right: 1em;
+   font-size: 35px;
+   color: var(--cor-texto2);
+}
+
+#faq {
+   text-align: center;
+}
