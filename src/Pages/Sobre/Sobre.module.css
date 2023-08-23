@@ -5,7 +5,7 @@
 }
 
 #ct {
-    padding-inline: 30%;
+    padding-inline: var(--pad-geral2);
 }
 
 #ct > h5 {

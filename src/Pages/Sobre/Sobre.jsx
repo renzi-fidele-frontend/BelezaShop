@@ -5,7 +5,7 @@ import estiloHome from "../Home/Home.module.css";
 const Sobre = () => {
    return (
       <div id={styles.ct}>
-         <h3 className={styles.tit3}>Olá!</h3>
+         <h3 className={estiloHome.tit}>Olá!</h3>
          <h5 className={estiloHome.subtit}>Tudo bem?</h5>
          <p>
             A Beleza Nos Olhos foi fundada em 2023, em São Paulo, com o objetivo de fornecer o óculos mais amado do Brasil com segurança e

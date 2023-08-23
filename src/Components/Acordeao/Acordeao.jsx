@@ -11,7 +11,7 @@ import { VscFeedback } from "react-icons/vsc";
 const Acordeao = () => {
    return (
       <div id={styles.ct}>
-         <details>
+         <details open={true}>
             <summary id={styles.sum}>
                <VscFeedback />
                <span className={estiloBeleza.tit2}>Avaliações dos clientes</span>{" "}
