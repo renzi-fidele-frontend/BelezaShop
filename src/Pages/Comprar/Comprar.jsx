@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import styles from "./Comprar.module.css";
 import estiloBeleza from "../OculosBeleza/OculosBeleza.module.css";
 import estiloHome from "../Home/Home.module.css";
-import imgProduto from "../../assets/IMG_3982.webp";
+import imgProduto from "../../assets/oculos.webp";
 import produto from "../../assets/ativo.png";
 import produto2 from "../../assets/ativo2.png";
 import { BsBoxSeam, BsInfoCircle, BsChat } from "react-icons/bs";
