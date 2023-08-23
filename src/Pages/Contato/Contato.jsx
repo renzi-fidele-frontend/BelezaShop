@@ -4,6 +4,7 @@ import estiloHome from "../Home/Home.module.css";
 import zap from "../../assets/icon_whatsapp.png";
 import insta from "../../assets/icon_instagram.png";
 import mail from "../../assets/icon_email.png";
+import demo from "../../assets/zapDemo.png"
 
 const Contato = () => {
    return (
@@ -30,11 +31,20 @@ const Contato = () => {
 
          <div id={styles.baixo}>
             <div id={styles.left}>
-               <img src="" alt="" />
+               <img src={demo} alt="" />
             </div>
             <div id={styles.right}>
                <h3 className={estiloHome.tit}>Precisa de ajuda?</h3>
                <h5 className={estiloHome.subtit}>Nós vamos te ajudar.</h5>
+               <p>
+                  Sempre que precisar, você pode entrar em contato com a equipe de suporte da Beleza. Será um prazer te conhecer, tirar as suas
+                  dúvidas e te ajudar com tudo que você precisar.
+               </p>
+               <br />
+               <p>
+                  Nós recebemos centenas de mensagens todos os dias, por isso, nem sempre conseguimos responder na hora. De qualquer forma, pode
+                  ficar tranquilo porque sempre vamos te responder rápido.
+               </p>
             </div>
          </div>
       </div>
