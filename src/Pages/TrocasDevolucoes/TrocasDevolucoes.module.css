@@ -1,3 +1,27 @@
 #ct {
     padding-inline: var(--pad-geral2);
 }
+
+#cima {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+#cima > svg {
+    font-size: 5em;
+    margin-bottom: 13px;
+}
+
+.secao {
+    margin-top: 3em;
+}
+
+.secao > h5 {
+    border-bottom: 1px solid var(--cor-borda);
+    padding-bottom: 0.1em;
+    margin-bottom: .7em;
+}
+
+.secao > p {
+    font-size: 20px;
+}
