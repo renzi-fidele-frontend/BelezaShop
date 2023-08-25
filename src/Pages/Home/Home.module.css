@@ -47,7 +47,7 @@
    font-family: "Avenir-heavy";
    color: #ff66c8;
    font-size: 1.8em;
-   font-weight: 700;
+   font-weight: 500;
 }
 
 #body > p {
@@ -137,7 +137,20 @@
    #hero > #right > img {
       width: 78%;
    }
+   .tit {
+      font-size: 32px;
+   }
+
+   .subtit {
+      font-size: 24px;
+   }
+
+   #body > img {
+      width: 500px;
+   }
 }
+
+
 
 @media screen and (max-width: 739px) {
    #hero {
@@ -147,6 +160,16 @@
    #hero > #right > img {
       width: 88%;
    }
+
+   #body > img {
+      width: 430px;
+   }
+
+   #body > div {
+      margin-top: 2em;
+      margin-bottom: 3em;
+   }
+
 }
 
 @media screen and (max-width: 635px) {
@@ -159,6 +182,41 @@
    #hero {
       padding-right: 5%;
    }
+
+   #body {
+      padding-inline: 2%;
+   }
+
+   .tit {
+      font-size: 27px;
+
+   }
+
+   .subtit {
+      font-size: 21px;
+      margin-top: 3px;
+   }
+
+   .titulo2 {
+      font-size: 1.5em;
+   }
+
+   #body > p {
+      margin-bottom: 2em;
+   }
+
+   #saibaBtn {
+      margin-top: 9px;
+      margin-right: 0;
+   }
+
+   #body > div {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      width: 100%;
+   }
+
 }
 
 @media screen and (max-width: 443px) {
@@ -169,6 +227,21 @@
    #hero {
       padding-right: 3%;
    }
+
+   .tit {
+      font-size: 25px;
+   }
+
+
+   .subtit {
+      font-size: 18px;
+   }
+
+   #body > img {
+      width: 95%;
+   }
+
+
 }
 
 @media screen and (max-width: 395px) {
@@ -178,4 +251,19 @@
    #hero > #left > h2 {
       font-size: 21px;
    }
+
+   .titulo2 {
+      font-size: 1.3em;
+   }
+
+   .tit {
+      font-size: 22px;
+   }
+
+
+   .subtit {
+      font-size: 17px;
+   }
+
+
 }
