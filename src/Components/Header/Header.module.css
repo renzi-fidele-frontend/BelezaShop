@@ -11,6 +11,8 @@
    cursor: pointer;
 }
 
-@media screen and (max-width: 1635px) {
-   
+@media screen and (max-width: 450px) {
+   #ct > img {
+      width: 100px;
+   }
 }
