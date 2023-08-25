@@ -60,7 +60,6 @@
    font-size: 44px;
    font-weight: normal;
    letter-spacing: -0.06em;
-
 }
 
 .subtit2 {
@@ -72,7 +71,6 @@
 .subtit {
    font-size: 32px;
    font-weight: normal;
-
 }
 
 #body > div {
@@ -105,4 +103,79 @@
 
 #body > img {
    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 1631px) {
+   #hero {
+      padding-inline: 24%;
+   }
+}
+
+@media screen and (max-width: 1475px) {
+   #hero {
+      padding-inline: 20%;
+   }
+}
+
+@media screen and (max-width: 1325px) {
+   #hero > #right > img {
+      width: 78%;
+   }
+}
+
+@media screen and (max-width: 1127px) {
+   #hero > #left > h2 {
+      font-size: 32px;
+      line-height: 1.2;
+   }
+}
+
+@media screen and (max-width: 955px) {
+   #hero > #left > h2 {
+      font-size: 24px;
+   }
+   #hero > #right > img {
+      width: 78%;
+   }
+}
+
+@media screen and (max-width: 739px) {
+   #hero {
+      padding-right: 10%;
+   }
+
+   #hero > #right > img {
+      width: 88%;
+   }
+}
+
+@media screen and (max-width: 635px) {
+   #hero {
+      padding-inline: 10%;
+   }
+}
+
+@media screen and (max-width: 543px) {
+   #hero {
+      padding-right: 5%;
+   }
+}
+
+@media screen and (max-width: 443px) {
+   #hero > #right > img {
+      width: 95%;
+   }
+
+   #hero {
+      padding-right: 3%;
+   }
+}
+
+@media screen and (max-width: 395px) {
+   #hero > #right > img {
+   }
+
+   #hero > #left > h2 {
+      font-size: 21px;
+   }
 }
