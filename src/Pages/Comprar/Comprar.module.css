@@ -104,7 +104,7 @@
 }
 
 #baixo > div > div > a {
-   color: #007aff;
+   color: var(--cor-link);
 }
 
 #baixo > div > div > a:hover {
