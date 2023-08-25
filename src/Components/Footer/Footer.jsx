@@ -13,7 +13,7 @@ const Footer = () => {
             <div id={styles.left}>
                <Link to={"/sobre"}>Sobre</Link>
                <Link to={"/contato"}>Contato</Link>
-               <Link to={"/trocas-e-devolucoes"}>Trocas e devoluções</Link>
+               <Link to={"/politica-de-vendas/#trocas-e-devolucoes"}>Trocas e devoluções</Link>
                <Link to={"/politica-de-vendas"}>Política de vendas</Link>
             </div>
             <div id={styles.right}>

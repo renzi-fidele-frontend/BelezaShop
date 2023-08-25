@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./TrocasDevolucoes.module.css";
 import estiloHome from "../Home/Home.module.css";
 import estiloBeleza from "../OculosBeleza/OculosBeleza.module.css";
@@ -7,10 +7,18 @@ import small from "../../assets/smallGlass.png";
 
 //Icons
 import { IoDocumentTextOutline } from "react-icons/io5";
-import { BsBoxSeam } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { BsBoxSeam, BsChat, BsChatDots } from "react-icons/bs";
+import { Link, useLocation } from "react-router-dom";
 
 const TrocasDevolucoes = () => {
+   const loc = useLocation();
+   const trocas = useRef();
+
+   useEffect(() => {
+      console.log(`O hash e: ${loc.hash}`);
+      loc.hash === "#trocas-e-devolucoes" ? trocas.current.scrollIntoView({ behavior: "smooth" }) : undefined;
+   }, [loc.hash]);
+
    return (
       <div id={styles.ct}>
          <div id={styles.cima}>
@@ -52,7 +60,7 @@ const TrocasDevolucoes = () => {
             </div>
 
             {/*Secao2 */}
-            <div className={styles.secao}>
+            <div ref={trocas} className={styles.secao}>
                <h5 className={estiloBeleza.tit2}>Trocas e devoluções</h5>
                <p></p>
                <div>
@@ -65,7 +73,8 @@ const TrocasDevolucoes = () => {
                      <Link className={styles.secLink}>Fale com a equipe de suporte da Beleza ›</Link>
                   </div>
                </div>
-               <br /><br />
+               <br />
+               <br />
                <p>
                   Nós criamos peças de excelência porque realmente queremos que você adore ser nosso cliente. Entendemos, porém, que um produto
                   comprado online pode não ser exatamente como você esperava, por isso, lhe reservamos o direito de solicitar uma troca ou
@@ -87,9 +96,25 @@ const TrocasDevolucoes = () => {
 
             {/*Secao3 */}
             <div className={styles.secao}>
-               <h5 className={estiloBeleza.tit2}>Garantia</h5>
-               <p></p>
-               <div></div>
+               <h5 className={estiloBeleza.tit2}>Formas de envio</h5>
+               <p>A Beleza oferece envio para todo Brasil. Você pode optar pelo envio padrão de R$20 ou frete grátis.</p>
+               <br />
+               <p>
+                  O prazo de entrega informado na finalização do pedido passa a ser contabilizado assim que o pedido é postado. Todos os pedidos
+                  da Beleza são postados em até um dia útil após a confirmação do pagamento.
+               </p>
+               <div>
+                  <div id={styles.left}>
+                     <BsChat size={50} />
+                  </div>
+                  <div id={styles.right}>
+                     <p className={styles.subtit}>
+                        <span>Precisa de ajuda?</span>
+                     </p>
+                     <p>Sempre estaremos aqui para te ajudar.</p>
+                     <Link className={styles.secLink}>Fale com a equipe de suporte da Beleza ›</Link>
+                  </div>
+               </div>
             </div>
          </div>
       </div>

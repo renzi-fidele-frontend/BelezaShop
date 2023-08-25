@@ -4,7 +4,7 @@ function SmoothScroll({ children }) {
    const location = useLocation();
    const navType = useNavigationType();
    useEffect(() => {
-      if (navType !== "POP") {
+      if (navType !== "POP" && location.hash !== "#trocas-e-devolucoes") {
          window.scrollTo({
             top: 0,
             behavior: "smooth",
