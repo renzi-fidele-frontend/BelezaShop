@@ -7,3 +7,21 @@
    --cor-borda: #e5e5e5;
    --cor-link: #007aff;
 }
+
+@media screen and (max-width: 1635px) {
+   :root {
+      --pad-geral: 13%;
+   }
+}
+
+@media screen and (max-width: 1391px) {
+   :root {
+      --pad-geral: 8%;
+   }
+}
+
+@media screen and (max-width: 811px) {
+   :root {
+      --pad-geral: 3%;
+   }
+}
