@@ -42,7 +42,7 @@
    font-size: 1.3em;
    font-family: "Avenir-Heavy";
    margin-bottom: 0.2em;
-   font-weight: 700;
+   font-weight: 500;
 }
 
 #baixo > #left > p,
@@ -50,7 +50,6 @@
 #baixo > #right > span {
    font-size: 12px;
    color: var(--cor-texto2);
-   font-weight: 500;
 }
 
 #baixo > #right > p {
@@ -81,16 +80,29 @@
       margin-right: 0;
       margin-bottom: 0.7em;
       font-size: 17px;
-      
    }
 
    #cima > #right > a {
       margin-left: 0;
-      margin-right: .8em;
-   }   
+      margin-right: 0.8em;
+   }
 
    #cima > #right {
-      margin-top: .6em;
+      margin-top: 0.6em;
    }
-   
+
+   #baixo {
+      flex-direction: column;
+      align-items: start;
+   }
+
+   #baixo > #right > img {
+      margin-top: 1.5em;
+   }
+
+   #baixo > #left > p,
+   #baixo > #right > p,
+   #baixo > #right > span {
+      font-size: 13px;
+   }
 }
