@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 450px) {
    #ct > img {
-      width: 100px;
+      width: 90px;
+      margin-left: 5px;
    }
 }
