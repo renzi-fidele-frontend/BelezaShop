@@ -14,14 +14,44 @@
    }
 }
 
+@media screen and (max-width: 1585px) {
+   :root {
+      --pad-geral2: 24%;
+   }
+
+}
+
 @media screen and (max-width: 1391px) {
    :root {
       --pad-geral: 8%;
    }
 }
 
+@media screen and (max-width: 1165px) {
+   :root {
+      --pad-geral2: 18%;
+   }
+}
+
+
 @media screen and (max-width: 811px) {
    :root {
       --pad-geral: 3%;
+      --pad-geral2: 10%;
+
+   }
+}
+
+@media screen and (max-width: 811px) {
+   :root {
+      --pad-geral2: 5%;
+
+   }
+}
+
+@media screen and (max-width: 600px) {
+   :root {
+      --pad-geral2: var(--pad-geral);
+
    }
 }
