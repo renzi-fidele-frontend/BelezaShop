@@ -4,7 +4,9 @@ import estiloHome from "../Home/Home.module.css";
 import zap from "../../assets/icon_whatsapp.png";
 import insta from "../../assets/icon_instagram.png";
 import mail from "../../assets/icon_email.png";
-import demo from "../../assets/zapDemo.png"
+import demo from "../../assets/zapDemo.png";
+import demoMobile from "../../assets/mobile.png";
+
 
 const Contato = () => {
    return (
@@ -31,7 +33,8 @@ const Contato = () => {
 
          <div id={styles.baixo}>
             <div id={styles.left}>
-               <img src={demo} alt="" />
+               <img src={demo} id={styles.demo} alt="" />
+               <img src={demoMobile} id={styles.demoMobile} alt="" />
             </div>
             <div id={styles.right}>
                <h3 className={estiloHome.tit}>Precisa de ajuda?</h3>

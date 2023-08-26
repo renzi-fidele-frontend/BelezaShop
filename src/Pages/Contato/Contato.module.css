@@ -1,6 +1,8 @@
 #ct {
    padding-inline: 25%;
    text-align: center;
+   padding-top: 1.5em;
+
 }
 
 #meio {
@@ -42,6 +44,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: end;
 }
 
 #baixo > #right {
@@ -58,5 +61,74 @@
 }
 
 #baixo > #right > h5 {
-   margin-bottom: .5em;
+   margin-bottom: 0.5em;
+}
+
+#demoMobile {
+   display: none;
+}
+
+@media screen and (max-width: 1603px) {
+   #ct {
+      padding-inline: 18%;
+   }
+}
+
+@media screen and (max-width: 1297px) {
+   #ct {
+      padding-inline: 10%;
+   }
+}
+
+@media screen and (max-width: 1079px) {
+   #ct {
+      padding-inline: 6%;
+   }
+}
+
+@media screen and (max-width: 919px) {
+   #baixo {
+      grid-template-columns: 40% 60%;
+   }
+}
+
+@media screen and (max-width: 843px) {
+   #baixo {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-inline: 10%;
+   }
+
+   #baixo > #right > p {
+      margin-bottom: 0.8em;
+      font-size: 18px;
+   }
+
+   #baixo > #left > img {
+      margin-top: 1em;
+   }
+
+   #demoMobile {
+      display: initial;
+   }
+
+   #demo {
+      display: none;
+   }
+
+   #baixo > #right > p {
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 843px) {
+   #baixo {
+      padding-inline: 0;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   #demoMobile {
+      width: 99%;
+   }
 }
