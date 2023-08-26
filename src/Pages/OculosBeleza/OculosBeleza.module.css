@@ -154,3 +154,50 @@
 
 #oferta > a {
 }
+
+
+@media screen and (max-width: 1500px) {
+   .secao {
+      padding-inline: 25%;
+   }
+   
+}
+
+@media screen and (max-width: 1131px) {
+   .secao {
+      padding-inline: 18%;
+   }
+   
+}
+
+@media screen and (max-width: 1131px) {
+   .secao > p {
+      font-size: 18px;
+   }
+
+}
+
+@media screen and (max-width: 725px) {
+   .secao {
+      padding-inline: 13%;
+   }
+   
+}
+
+@media screen and (max-width: 525px) {
+   .secao {
+      padding-inline: 3%;
+      margin-bottom: 3em;
+   }
+
+   .secao > p {
+      margin-top: 1em;
+      font-size: 16px;
+   }
+
+   .secao > h2 {
+      margin-bottom: 1em;
+      font-size: 17px;
+   }
+   
+}

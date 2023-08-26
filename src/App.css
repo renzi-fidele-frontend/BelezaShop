@@ -13,6 +13,10 @@ a {
    color: var(--cor-texto);
 }
 
+img {
+   max-width: 100%;
+}
+
 .App {
    color: var(--cor-texto);
    letter-spacing: -0.040em;
