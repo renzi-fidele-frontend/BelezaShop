@@ -10,8 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "accordion-js": "^3.3.4",
-    "framer-motion": "^10.16.0",
     "lightgallery": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
