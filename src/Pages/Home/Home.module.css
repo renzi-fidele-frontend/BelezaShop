@@ -17,7 +17,9 @@
 }
 
 #hero > #right {
-   text-align: end;
+   display: flex;
+   justify-content: center;
+   align-items: end;
 }
 
 #hero > #left > h2 {
@@ -150,8 +152,6 @@
    }
 }
 
-
-
 @media screen and (max-width: 739px) {
    #hero {
       padding-right: 10%;
@@ -169,7 +169,6 @@
       margin-top: 2em;
       margin-bottom: 3em;
    }
-
 }
 
 @media screen and (max-width: 635px) {
@@ -189,7 +188,6 @@
 
    .tit {
       font-size: 27px;
-
    }
 
    .subtit {
@@ -216,7 +214,6 @@
       justify-content: center;
       width: 100%;
    }
-
 }
 
 @media screen and (max-width: 443px) {
@@ -232,7 +229,6 @@
       font-size: 25px;
    }
 
-
    .subtit {
       font-size: 18px;
    }
@@ -240,8 +236,6 @@
    #body > img {
       width: 95%;
    }
-
-
 }
 
 @media screen and (max-width: 395px) {
@@ -260,10 +254,7 @@
       font-size: 22px;
    }
 
-
    .subtit {
       font-size: 17px;
    }
-
-
 }
