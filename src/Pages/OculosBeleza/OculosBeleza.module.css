@@ -167,19 +167,23 @@
    .secao {
       padding-inline: 18%;
    }
-   
-}
-
-@media screen and (max-width: 1131px) {
    .secao > p {
       font-size: 18px;
    }
-
+   
+   .tit2 {
+      font-size: 29px;
+   }
 }
+
 
 @media screen and (max-width: 725px) {
    .secao {
       padding-inline: 13%;
+   }
+
+   .tit2 {
+      font-size: 25px;
    }
    
 }
@@ -199,5 +203,16 @@
       margin-bottom: 1em;
       font-size: 17px;
    }
+
+   .tit2 {
+      font-size: 22px;
+   }
    
+}
+
+@media screen and (max-width: 350px) {
+   .tit2 {
+      font-size: 20px;
+   }
+
 }

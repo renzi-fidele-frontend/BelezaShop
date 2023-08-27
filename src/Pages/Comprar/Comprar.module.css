@@ -99,7 +99,7 @@
 }
 
 #baixo > div > div > span {
-    margin-top: 1px;
+   margin-top: 1px;
    color: var(--cor-texto2);
 }
 
@@ -112,7 +112,7 @@
 }
 
 #last {
-    margin-top: 7em;
+   margin-top: 7em;
 }
 
 #antes {
@@ -123,3 +123,139 @@
    font-size: 20px !important;
    margin-right: 7px;
 }
+
+@media screen and (max-width: 1277px) {
+   #last {
+      margin-top: 4em;
+   }
+}
+
+@media screen and (max-width: 1187px) {
+   #baixo {
+      padding-inline: 11%;
+   }
+}
+
+@media screen and (max-width: 1167px) {
+   #cima > #left > img {
+      margin-top: 1em;
+      margin-bottom: 3em;
+      height: 500px;
+   }
+
+   #ct {
+      padding-block: 2em;
+   }
+
+   .buyBtn {
+      align-self: center;
+   }
+
+   #cima {
+      display: flex;
+      flex-direction: column;
+      padding-inline: 0;
+   }
+
+   #cima > #right {
+      padding-left: initial;
+      padding-inline: 5%;
+   }
+}
+
+@media screen and (max-width: 973px) {
+   #baixo {
+      padding-inline: 5%;
+   }
+}
+
+@media screen and (max-width: 857px) {
+   #cima > #left > img {
+      height: auto;
+      width: 80%;
+   }
+
+   #cima > #right > h3 {
+      font-size: 30px;
+   }
+
+   #baixo > div > div > p,
+   #baixo > div > div > span {
+      font-size: 15px;
+   }
+
+   
+}
+
+@media screen and (max-width: 721px) {
+   #baixo {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      padding-inline: 0;
+   }
+}
+
+@media screen and (max-width: 619px) {
+   .buyBtn {
+      width: 100%;
+      text-align: center;
+   }
+
+   #cima > #right {
+      padding-left: initial;
+      padding-inline: 0%;
+   }
+
+   #ct {
+      padding-block: 1em;
+   }
+   #cima > #right > h3 {
+      font-size: 25px;
+   }
+
+   #cima > #left > img {
+      height: auto;
+      width: 90%;
+   }
+
+   #cima > #right > h5 {
+      font-size: 18px;
+   }
+
+   #last {
+      margin-top: 3em;
+   }
+
+   #baixo {
+      margin-top: 1.5em;
+   }
+
+
+}
+
+@media screen and (max-width: 477px) {
+   #empurar {
+      margin-left: 30%;
+   }
+}
+
+@media screen and (max-width: 390px) {
+   #cima > #right > h3 {
+      font-size: 22px;
+   }
+
+}
+
+@media screen and (max-width: 387px) {
+   #empurar {
+      margin-left: 25%;
+   }
+}
+
+@media screen and (max-width: 353px) {
+   #empurar {
+      margin-left: 18%;
+   }
+}
+

@@ -107,10 +107,18 @@
    .secao {
       margin-top: 3em;
    }
+
+   .secTit {
+      margin-top: 5px;
+   }
    
 }
 
 @media screen and (max-width: 533px) {
+#ct {
+   padding-block: 1.8em;
+}
+
    .secao > p {
       font-size: 16px;
    }

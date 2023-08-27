@@ -26,6 +26,7 @@ summary:hover {
    flex-flow: row nowrap;
    border-top: 1px solid var(--cor-borda);
    padding-block: 18px;
+   align-items: center;
 }
 
 #sum > svg {
@@ -68,4 +69,22 @@ summary:hover {
 
 #ultimo {
    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 800px) {
+   #faq > details {
+      margin-inline: 6%;
+   }
+}
+
+@media screen and (max-width: 533px) {
+   #sum > svg {
+      margin-right: .5em;
+   }
+
+   #primeiro {
+      margin-top: 1em !important;
+   }
+
+   
 }
