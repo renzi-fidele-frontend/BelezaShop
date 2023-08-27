@@ -70,7 +70,9 @@ const TrocasDevolucoes = () => {
                   </div>
                   <div id={styles.right}>
                      <h2 className={styles.secTit}>Solicite uma troca ou devolução</h2>
-                     <Link className={styles.secLink}>Fale com a equipe de suporte da Beleza ›</Link>
+                     <Link to={"/contato"} className={styles.secLink}>
+                        Fale com a equipe de suporte da Beleza ›
+                     </Link>
                   </div>
                </div>
                <br />
@@ -112,7 +114,7 @@ const TrocasDevolucoes = () => {
                         <span>Precisa de ajuda?</span>
                      </p>
                      <p>Sempre estaremos aqui para te ajudar.</p>
-                     <Link className={styles.secLink}>Fale com a equipe de suporte da Beleza ›</Link>
+                     <Link to={"/contato"} className={styles.secLink}>Fale com a equipe de suporte da Beleza ›</Link>
                   </div>
                </div>
             </div>

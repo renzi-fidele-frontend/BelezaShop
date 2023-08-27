@@ -9,6 +9,7 @@ import { BsBoxSeam, BsInfoCircle, BsChat } from "react-icons/bs";
 import { PiSealCheckLight } from "react-icons/pi";
 import { color } from "framer-motion";
 import Acordeao from "../../Components/Acordeao/Acordeao";
+import { Link } from "react-router-dom";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
@@ -75,7 +76,7 @@ const Comprar = () => {
                   <BsInfoCircle />
                   <span>Entrega mais rápida do Brasil.</span>
                </p>
-               <a id={estiloHome.buyBtn} className={styles.buyBtn} href="#">
+               <a id={estiloHome.buyBtn} className={styles.buyBtn} href="https://seguro.belezanosolhos.com.br/r/QK0BGZ7IO2">
                   Compre agora
                </a>
             </div>
@@ -100,7 +101,7 @@ const Comprar = () => {
                <BsChat />
                <div>
                   <p>Suporte online</p>
-                  <a href="#">Fale com a Beleza</a>
+                  <Link to={"/contato"}>Fale com a Beleza</Link>
                </div>
             </div>
          </div>
