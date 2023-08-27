@@ -241,7 +241,7 @@
 
 @media screen and (max-width: 477px) {
    #empurar {
-      margin-left: 30%;
+      display: block;
    }
 }
 
@@ -253,15 +253,4 @@
 
 }
 
-@media screen and (max-width: 387px) {
-   #empurar {
-      margin-left: 25%;
-   }
-}
-
-@media screen and (max-width: 353px) {
-   #empurar {
-      margin-left: 18%;
-   }
-}
 
