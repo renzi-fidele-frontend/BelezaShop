@@ -223,6 +223,11 @@
       font-size: 18px;
    }
 
+   #cima > #right > h5 > span {
+      text-align: left;
+   }
+
+
    #last {
       margin-top: 3em;
    }
@@ -244,6 +249,7 @@
    #cima > #right > h3 {
       font-size: 22px;
    }
+
 
 }
 
