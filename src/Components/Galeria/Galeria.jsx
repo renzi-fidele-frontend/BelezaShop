@@ -11,9 +11,10 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 // Imagens
-import imgProduto from "../../assets/oculos.webp";
-import produto from "../../assets/ativo.png";
-import produto2 from "../../assets/ativo2.png";
+import prd1 from "../../assets/prd3.webp";
+import prd2 from "../../assets/prd2.webp";
+import prd3 from "../../assets/prd1.webp";
+import prd5 from "../../assets/prd5.jpg";
 
 const Galeria = () => {
    const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -31,16 +32,16 @@ const Galeria = () => {
             className={"mySwiper2"}
          >
             <SwiperSlide>
-               <img src={imgProduto} alt="produto" />
+               <img src={prd1} alt="produto" />
             </SwiperSlide>
             <SwiperSlide>
-               <img src={imgProduto} alt="produto" />
+               <img src={prd2} alt="produto" />
             </SwiperSlide>
             <SwiperSlide>
-               <img src={imgProduto} alt="produto" />
+               <img src={prd3} alt="produto" />
             </SwiperSlide>
             <SwiperSlide>
-               <img src={imgProduto} alt="produto" />
+               <img src={prd5} alt="produto" />
             </SwiperSlide>
          </Swiper>
          <Swiper
@@ -52,16 +53,16 @@ const Galeria = () => {
             className={"mySwiper"}
          >
             <SwiperSlide>
-               <img src={imgProduto} alt="produto" />
+               <img src={prd1} alt="produto" />
             </SwiperSlide>
             <SwiperSlide>
-               <img src={imgProduto} alt="produto" />
+               <img src={prd2} alt="produto" />
             </SwiperSlide>
             <SwiperSlide>
-               <img src={imgProduto} alt="produto" />
+               <img src={prd3} alt="produto" />
             </SwiperSlide>
             <SwiperSlide>
-               <img src={imgProduto} alt="produto" />
+               <img src={prd5} alt="produto" />
             </SwiperSlide>
          </Swiper>
       </div>
