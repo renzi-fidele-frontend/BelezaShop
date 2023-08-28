@@ -9,6 +9,7 @@ import { FiCheckCircle } from "react-icons/fi";
 import Acordeao from "../../Components/Acordeao/Acordeao";
 import { Link } from "react-router-dom";
 import Galeria from "../../Components/Galeria/Galeria";
+import Galeria2 from "../../Components/Galeria2/Galeria2";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
@@ -24,7 +25,7 @@ const Comprar = () => {
             <div id={styles.left}>
                <h3 className={estiloHome.titulo2}>Beleza</h3>
                <p className={estiloHome.subtit2}>All Black</p>
-               <Galeria />
+               <Galeria2 />
             </div>
             <div id={styles.right}>
                <h3 className={estiloBeleza.tit2}>Frete grátis a partir de 2 óculos.</h3>
@@ -64,10 +65,6 @@ const Comprar = () => {
                <h5>Garantia de 2 anos</h5>
                <p>- Seguro autorizado</p>
                <h5>Medidas:</h5>
-               {/*<p>
-                  Formato: Quadrado + Largura da lente: 5 cm + Altura da lente: 3,5 cm + Ponte: 1,5 cm + Comprimento Haste: 14,5 cm + Largura
-                  Total: 15 cm
-                  </p>*/}
                <ul>
                   <p>
                      <FiCheckCircle />
