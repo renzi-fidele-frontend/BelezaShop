@@ -8,7 +8,6 @@ import { FiCheckCircle } from "react-icons/fi";
 
 import Acordeao from "../../Components/Acordeao/Acordeao";
 import { Link } from "react-router-dom";
-import Galeria from "../../Components/Galeria/Galeria";
 import Galeria2 from "../../Components/Galeria2/Galeria2";
 
 const Comprar = () => {
