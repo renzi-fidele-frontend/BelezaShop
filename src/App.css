@@ -36,6 +36,7 @@ img {
 .mySwiper2 {
    overflow: hidden;
    margin-bottom: 1em;
+   height: 500px;
 }
 
 .mySwiper2 .swiper-slide:hover {
@@ -43,6 +44,8 @@ img {
 }
 
 .mySwiper .swiper-slide {
+   height: 100px;
+   width: auto;
    opacity: 0.4;
 }
 
@@ -52,4 +55,16 @@ img {
 
 .mySwiper .swiper-slide-thumb-active {
    opacity: 1;
+}
+
+@media screen and (max-width: 1159px) {
+   .mySwiper .swiper-slide {
+      height: 140px;
+   }
+}
+
+@media screen and (max-width: 547px) {
+   .mySwiper2 {
+      height: 370px;
+   }
 }
