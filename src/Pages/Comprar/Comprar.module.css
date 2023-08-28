@@ -13,11 +13,6 @@
    text-align: center;
 }
 
-#cima > #left > img {
-   margin-top: 2.5em;
-   height: 524px;
-}
-
 #cima > #right {
    display: flex;
    flex-direction: column;
@@ -49,6 +44,23 @@
    color: var(--cor-texto2);
    margin-top: 0.3em;
    margin-bottom: 0.8em;
+}
+
+#cima > #right >   ul {
+   margin-top: .3em;
+   color: var(--cor-texto2);
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+#cima > #right >   ul > p {
+   display: flex;
+   align-items: center;
+}
+
+#cima > #right >   ul > p > svg {
+   margin-right: 5px ;
 }
 
 .opcoes > P::after {
@@ -124,6 +136,8 @@
    margin-right: 7px;
 }
 
+
+
 @media screen and (max-width: 1277px) {
    #last {
       margin-top: 4em;
@@ -183,8 +197,6 @@
    #baixo > div > div > span {
       font-size: 15px;
    }
-
-   
 }
 
 @media screen and (max-width: 721px) {
@@ -227,7 +239,6 @@
       text-align: left;
    }
 
-
    #last {
       margin-top: 3em;
    }
@@ -235,8 +246,6 @@
    #baixo {
       margin-top: 1.5em;
    }
-
-
 }
 
 @media screen and (max-width: 477px) {
@@ -249,8 +258,4 @@
    #cima > #right > h3 {
       font-size: 22px;
    }
-
-
 }
-
-

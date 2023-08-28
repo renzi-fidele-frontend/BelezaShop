@@ -19,9 +19,38 @@ img {
 
 .App {
    color: var(--cor-texto);
-   letter-spacing: -0.040em;
+   letter-spacing: -0.04em;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    min-height: 100vh;
+}
+
+/* Swiper */
+.swiper-slide {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.mySwiper2 {
+   height: 490px;
+   overflow: hidden;
+   margin-bottom: 1em;
+}
+
+.mySwiper2 .swiper-slide:hover {
+   cursor: grab;
+}
+
+.mySwiper .swiper-slide {
+   opacity: 0.4;
+}
+
+.mySwiper .swiper-slide:hover {
+   cursor: pointer;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+   opacity: 1;
 }

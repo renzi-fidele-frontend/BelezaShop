@@ -2,14 +2,13 @@ import React, { useRef, useState } from "react";
 import styles from "./Comprar.module.css";
 import estiloBeleza from "../OculosBeleza/OculosBeleza.module.css";
 import estiloHome from "../Home/Home.module.css";
-import imgProduto from "../../assets/oculos.webp";
-import produto from "../../assets/ativo.png";
-import produto2 from "../../assets/ativo2.png";
 import { BsBoxSeam, BsInfoCircle, BsChat } from "react-icons/bs";
 import { PiSealCheckLight } from "react-icons/pi";
-import { color } from "framer-motion";
+import { FiCheckCircle } from "react-icons/fi";
+
 import Acordeao from "../../Components/Acordeao/Acordeao";
 import { Link } from "react-router-dom";
+import Galeria from "../../Components/Galeria/Galeria";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
@@ -25,11 +24,11 @@ const Comprar = () => {
             <div id={styles.left}>
                <h3 className={estiloHome.titulo2}>Beleza</h3>
                <p className={estiloHome.subtit2}>All Black</p>
-               <img src={imgProduto} alt="" />
+               <Galeria />
             </div>
             <div id={styles.right}>
                <h3 className={estiloBeleza.tit2}>Frete grátis a partir de 2 óculos.</h3>
-               <h5>Cor</h5>
+               <h5>Tipo</h5>
                <p>- {cor}</p>
                {/*Opções */}
                <div id={estiloBeleza.opcoes} className={styles.opcoes}>
@@ -65,10 +64,36 @@ const Comprar = () => {
                <h5>Garantia de 2 anos</h5>
                <p>- Seguro autorizado</p>
                <h5>Medidas:</h5>
-               <p>
+               {/*<p>
                   Formato: Quadrado + Largura da lente: 5 cm + Altura da lente: 3,5 cm + Ponte: 1,5 cm + Comprimento Haste: 14,5 cm + Largura
                   Total: 15 cm
-               </p>
+                  </p>*/}
+               <ul>
+                  <p>
+                     <FiCheckCircle />
+                     <span>Formato: Quadrado</span>
+                  </p>
+                  <p>
+                     <FiCheckCircle />
+                     <span>Largura da lente: 5 cm</span>
+                  </p>
+                  <p>
+                     <FiCheckCircle />
+                     <span>Altura da lente: 3,5 cm</span>
+                  </p>
+                  <p>
+                     <FiCheckCircle />
+                     <span>Ponte: 1,5 cm</span>
+                  </p>
+                  <p>
+                     <FiCheckCircle />
+                     <span>Comprimento Haste: 14,5 cm</span>
+                  </p>
+                  <p>
+                     <FiCheckCircle />
+                     <span>Largura Total: 15 cm</span>
+                  </p>
+               </ul>
                <h5>
                   <span id={styles.antes}>De R$ 129,99</span> Por R$ 49,99 <span id={styles.empurar}> em até 2x sem juros</span>
                </h5>
