@@ -45,18 +45,6 @@ const Comprar = () => {
                   >
                      <span></span>
                   </p>
-                  <p
-                     ref={btn2}
-                     id={estiloBeleza.produto2}
-                     onClick={() => {
-                        setImgAmostrar(2);
-                        setCor("Acetato Importado Italiano");
-                        btn1.current.classList.remove(estiloBeleza.btnAtivo);
-                        btn2.current.classList.add(estiloBeleza.btnAtivo);
-                     }}
-                  >
-                     <span></span>
-                  </p>
                </div>
 
                <h5>Acompanha Case</h5>

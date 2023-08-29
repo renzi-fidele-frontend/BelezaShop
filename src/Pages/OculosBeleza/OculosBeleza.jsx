@@ -10,6 +10,7 @@ import star from "../../assets/star.svg";
 
 import { Link, useLocation } from "react-router-dom";
 import Swiper3d from "../../Components/Swiper3d/Swiper3d";
+import Galeria2 from "../../Components/Galeria2/Galeria2";
 
 const OculosBeleza = () => {
    const loc = useLocation();
@@ -37,11 +38,10 @@ const OculosBeleza = () => {
                   que brilha com a luz. Um óculos único, criado para quem aprecia a beleza da moda.
                </p>
                <div id={styles.imgsCont}>
-                  {imgAmostrar === 1 && <img src={produto} alt="produto 1" />}
-                  {imgAmostrar === 2 && <img src={produto2} alt="produto 2" />}
+                  <Galeria2 />
                </div>
 
-               <h4>Tipo</h4>
+               <h4>Cor</h4>
                <div id={styles.opcoes}>
                   <p
                      ref={btn1}
@@ -55,7 +55,7 @@ const OculosBeleza = () => {
                   >
                      <span></span>
                   </p>
-                  <p
+                  {/*<p
                      ref={btn2}
                      id={styles.produto2}
                      onClick={() => {
@@ -65,7 +65,7 @@ const OculosBeleza = () => {
                      }}
                   >
                      <span></span>
-                  </p>
+                  </p> */}
                </div>
             </div>
 
