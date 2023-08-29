@@ -28,7 +28,7 @@ const Comprar = () => {
             </div>
             <div id={styles.right}>
                <h3 className={estiloBeleza.tit2}>Frete grátis a partir de 2 óculos.</h3>
-               <h5>Tipo</h5>
+               <h5>Cor</h5>
                <p>- {cor}</p>
                {/*Opções */}
                <div id={estiloBeleza.opcoes} className={styles.opcoes}>
