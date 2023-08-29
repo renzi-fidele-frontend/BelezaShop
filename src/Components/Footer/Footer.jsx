@@ -34,13 +34,13 @@ const Footer = () => {
          <div id={styles.baixo}>
             <div id={styles.left}>
                <h1>Beleza</h1>
-               <p>Copyright © 2023 Jouse Ltda. CNPJ: 31.758.172/0001-52</p>
+               <p>Copyright © 2023 Beleza Ltda. CNPJ: 31.758.172/0001-52</p>
                <p>Rua Brasílio Itiberê, 1880 - Curitiba, PR 80230-050</p>
             </div>
             <div id={styles.right}>
                <img src={imgPagar} alt="pagamentos disponiveis" />
                <p>Precisa de ajuda?</p>
-               <span>suporte@jouse.com.br</span>
+               <span>suporte@belezanosolhos.com</span>
             </div>
          </div>
       </footer>

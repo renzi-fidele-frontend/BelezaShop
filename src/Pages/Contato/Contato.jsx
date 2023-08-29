@@ -7,7 +7,6 @@ import mail from "../../assets/icon_email.png";
 import demo from "../../assets/zapDemo.png";
 import demoMobile from "../../assets/mobile.png";
 
-
 const Contato = () => {
    return (
       <div id={styles.ct}>
@@ -16,14 +15,14 @@ const Contato = () => {
          <div id={styles.meio}>
             {" "}
             <div>
-               <a href="">
+               <a href="https://wa.link/se1wb6">
                   <img src={zap} alt="icone do Zap" />
                </a>
-               <a href="" id={styles.afastar}>
+               <a href="https://www.instagram.com/blznosolhos/" id={styles.afastar}>
                   <img src={insta} alt="icone do Insta" />
                </a>
 
-               <a href="">
+               <a href="mailto:suporte@belezanosolhos.com">
                   <img src={mail} alt="icone do mail" />
                </a>
             </div>
