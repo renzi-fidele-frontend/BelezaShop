@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./OculosBeleza.module.css";
 import estiloHome from "../Home/Home.module.css";
-import produto from "../../assets/ativo.png";
-import produto2 from "../../assets/ativo2.png";
 import mulher1 from "../../assets/realwomen1.jpg";
 import mulher2 from "../../assets/realwomen.jpg";
 import fotonova from "../../assets/ocs.jpg";
@@ -105,8 +103,8 @@ const OculosBeleza = () => {
                   Sua produção é feita na Itália pelos mestres artesãos da moda, os melhores do mundo, por isso seu material é resistente à
                   quedas e riscos.
                </p>
-               <div className={styles.imgCont}>
-                  <img src={fotonova} alt="" />
+               <div id={styles.ftNova} className={styles.imgCont}>
+                  <img  src={fotonova} alt="" />
                </div>
             </div>
 

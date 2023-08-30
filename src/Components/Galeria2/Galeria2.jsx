@@ -2,10 +2,10 @@ import React, { useRef, useState } from "react";
 import styles from "./Galeria2.module.css";
 
 // Imagens
-import prd1 from "../../assets/prd3.webp";
-import prd2 from "../../assets/prd2.webp";
-import prd3 from "../../assets/prd1.webp";
-import prd5 from "../../assets/prd5.jpg";
+import prd1 from "../../assets/realwomen1.jpg";
+import prd2 from "../../assets/realwomen.jpg";
+import prd3 from "../../assets/realwomen2.jpg";
+import prd5 from "../../assets/realwomen3.webp";
 
 const Galeria2 = () => {
    const [img, setImg] = useState(prd1);

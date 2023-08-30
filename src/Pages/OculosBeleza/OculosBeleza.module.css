@@ -188,6 +188,12 @@
    
 }
 
+@media screen and (max-width: 600px) {
+   #ftNova {
+      margin-right: -3%;
+   }
+}
+
 @media screen and (max-width: 525px) {
    .secao {
       padding-inline: 3%;
