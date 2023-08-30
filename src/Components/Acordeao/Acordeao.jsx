@@ -7,6 +7,11 @@ import estiloHome from "../../Pages/Home/Home.module.css";
 //Icons
 import { AiOutlineMessage } from "react-icons/ai";
 import { VscFeedback } from "react-icons/vsc";
+import { ImFilePicture  } from "react-icons/im";
+
+
+// Imagens do slider
+
 
 const Acordeao = () => {
    return (
@@ -17,6 +22,13 @@ const Acordeao = () => {
                <span className={estiloBeleza.tit2}>Avaliações dos clientes</span>{" "}
             </summary>
             <Swiper3d nrFotos={3} />
+         </details>
+         <details>
+            <summary id={styles.sum}>
+               <ImFilePicture />
+               <span className={estiloBeleza.tit2}>Fotos de quem recebeu</span>
+            </summary>
+            <Swiper3d nrFotos={3} imagens={[]} />
          </details>
          <details id={styles.faq}>
             <summary id={styles.sum}>

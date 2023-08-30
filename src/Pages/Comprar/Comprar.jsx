@@ -10,6 +10,7 @@ import Acordeao from "../../Components/Acordeao/Acordeao";
 import { Link } from "react-router-dom";
 import Galeria2 from "../../Components/Galeria2/Galeria2";
 
+
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
    const [cor, setCor] = useState("Preto Brilhante");
