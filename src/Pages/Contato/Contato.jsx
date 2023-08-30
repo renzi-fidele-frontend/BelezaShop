@@ -5,6 +5,7 @@ import zap from "../../assets/icon_whatsapp.png";
 import insta from "../../assets/icon_instagram.png";
 import mail from "../../assets/icon_email.png";
 import demo from "../../assets/zapDemo.png";
+import demoMobile from "../../assets/mobile.png";
 
 const Contato = () => {
    return (
