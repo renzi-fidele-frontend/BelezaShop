@@ -5,7 +5,7 @@ import produto from "../../assets/ativo.png";
 import produto2 from "../../assets/ativo2.png";
 import mulher1 from "../../assets/realwomen1.jpg";
 import mulher2 from "../../assets/realwomen.jpg";
-import fotonova from "../../assets/IMG_3980.jpg";
+import fotonova from "../../assets/ocs.jpg";
 import star from "../../assets/star.svg";
 import amostras from "../../assets/deps.jpg"
 
