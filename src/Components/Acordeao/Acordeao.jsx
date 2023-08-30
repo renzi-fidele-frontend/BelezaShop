@@ -7,13 +7,23 @@ import estiloHome from "../../Pages/Home/Home.module.css";
 //Icons
 import { AiOutlineMessage } from "react-icons/ai";
 import { VscFeedback } from "react-icons/vsc";
-import { ImFilePicture  } from "react-icons/im";
-
+import { ImFilePicture } from "react-icons/im";
 
 // Imagens do slider
-
+import i1 from "../../assets/galeria/1.jpg";
+import i2 from "../../assets/galeria/2.jpg";
+import i3 from "../../assets/galeria/3.jpg";
+import i4 from "../../assets/galeria/4.jpg";
+import i5 from "../../assets/galeria/5.jpg";
+import i6 from "../../assets/galeria/6.jpg";
+import i7 from "../../assets/galeria/7.jpg";
+import i8 from "../../assets/galeria/8.jpg";
+import i9 from "../../assets/galeria/9.jpg";
+import i10 from "../../assets/galeria/10.jpg";
+const imagens = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10];
 
 const Acordeao = () => {
+
    return (
       <div id={styles.ct}>
          <details open={true}>
@@ -28,7 +38,7 @@ const Acordeao = () => {
                <ImFilePicture />
                <span className={estiloBeleza.tit2}>Fotos de quem recebeu</span>
             </summary>
-            <Swiper3d nrFotos={3} imagens={[]} />
+            <Swiper3d nrFotos={3} imagens={imagens} />
          </details>
          <details id={styles.faq}>
             <summary id={styles.sum}>
