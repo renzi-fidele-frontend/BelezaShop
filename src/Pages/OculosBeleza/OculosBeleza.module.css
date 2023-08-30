@@ -179,6 +179,7 @@
 @media screen and (max-width: 725px) {
    .secao {
       padding-inline: 13%;
+      text-align: left;
    }
 
    .tit2 {
@@ -193,14 +194,22 @@
       margin-bottom: 3em;
    }
 
+   .secao > h4 {
+      text-align: center;
+   }
+
    .secao > p {
       margin-top: 1em;
-      font-size: 16px;
+      font-size: 18px;
+   }
+
+   .secao > ul {
+      justify-content: left;
    }
 
    .secao > h2 {
       margin-bottom: 1em;
-      font-size: 17px;
+      font-size: 18px;
    }
 
    .tit2 {

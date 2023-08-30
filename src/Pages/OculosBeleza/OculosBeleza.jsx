@@ -5,8 +5,9 @@ import produto from "../../assets/ativo.png";
 import produto2 from "../../assets/ativo2.png";
 import mulher1 from "../../assets/realwomen1.jpg";
 import mulher2 from "../../assets/realwomen.jpg";
-import mulher3 from "../../assets/produto3.png";
+import fotonova from "../../assets/IMG_3980.jpg";
 import star from "../../assets/star.svg";
+import amostras from "../../assets/deps.jpg"
 
 import { Link, useLocation } from "react-router-dom";
 import Swiper3d from "../../Components/Swiper3d/Swiper3d";
@@ -105,7 +106,7 @@ const OculosBeleza = () => {
                   quedas e riscos.
                </p>
                <div className={styles.imgCont}>
-                  <img src={mulher3} alt="" />
+                  <img src={fotonova} alt="" />
                </div>
             </div>
 
@@ -123,10 +124,10 @@ const OculosBeleza = () => {
                <h6 className={estiloHome.subtit}>Quem já comprou, adorou.</h6>
                <p>
                   O Beleza All Black conquistou o coração de + 1.700 clientes e já é o mais bem avaliado do Brasil. São milhares de avaliações
-                  excelentes de clientes de todo o país recomendando o Beleza All Black. (abaixo mostrar os todos os depoimentos com formato de
-                  passar para o lado)
+                  excelentes de clientes de todo o país recomendando o Beleza All Black.
                </p>
             </div>
+            <img src={amostras} alt="amostras de quem comprou" />
             <Swiper3d />
          </div>
          <h3 className={estiloHome.titulo2}>Beleza</h3>

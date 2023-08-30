@@ -17,7 +17,7 @@ const Footer = () => {
                <Link to={"/politica-de-vendas"}>Política de vendas</Link>
             </div>
             <div id={styles.right}>
-               <a href="">
+               <a href="https://www.instagram.com/blznosolhos/">
                   <BsInstagram />
                </a>
                <a href="">
@@ -34,8 +34,8 @@ const Footer = () => {
          <div id={styles.baixo}>
             <div id={styles.left}>
                <h1>Beleza</h1>
-               <p>Copyright © 2023 Beleza Ltda. CNPJ: 31.758.172/0001-52</p>
-               <p>Rua Brasílio Itiberê, 1880 - Curitiba, PR 80230-050</p>
+               <p>Copyright © 2023 Beleza Ltda.</p>
+               <p>Rua Costa Barros, 2100 - Centro Comercial - São Paulo</p>
             </div>
             <div id={styles.right}>
                <img src={imgPagar} alt="pagamentos disponiveis" />
