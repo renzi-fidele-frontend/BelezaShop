@@ -27,7 +27,7 @@ const Comprar = () => {
                <Galeria2 />
             </div>
             <div id={styles.right}>
-               <h3 className={estiloBeleza.tit2}>Promoção Válida Até 23:59h.</h3>
+               <h3 className={estiloBeleza.tit2}>Poucas unidades em stock</h3>
                <h5>Cor</h5>
                <p>- {cor}</p>
                {/*Opções */}
