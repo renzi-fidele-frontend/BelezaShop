@@ -5,7 +5,7 @@ import mulher1 from "../../assets/realwomen1.jpg";
 import mulher2 from "../../assets/realwomen.jpg";
 import fotonova from "../../assets/ocs.jpg";
 import star from "../../assets/star.svg";
-import amostras from "../../assets/deps.jpg"
+import amostras from "../../assets/deps.jpg";
 
 import { Link, useLocation } from "react-router-dom";
 import Swiper3d from "../../Components/Swiper3d/Swiper3d";
@@ -41,7 +41,7 @@ const OculosBeleza = () => {
                </div>
 
                <h4>Cor</h4>
-               <div id={styles.opcoes}>
+               <div style={{ marginBottom: "4em" }} id={styles.opcoes}>
                   <p
                      ref={btn1}
                      id={styles.produto1}
@@ -65,6 +65,11 @@ const OculosBeleza = () => {
                   >
                      <span></span>
                   </p> */}
+               </div>
+               <div style={{ textAlign: "center !important" }}>
+                  <a id={estiloHome.buyBtn} className={styles.cimaBtn} href="https://seguro.belezanosolhos.com.br/r/QK0BGZ7IO2">
+                     Compre agora
+                  </a>
                </div>
             </div>
 
@@ -104,7 +109,7 @@ const OculosBeleza = () => {
                   quedas e riscos.
                </p>
                <div id={styles.ftNova} className={styles.imgCont}>
-                  <img  src={fotonova} alt="" />
+                  <img src={fotonova} alt="" />
                </div>
             </div>
 
