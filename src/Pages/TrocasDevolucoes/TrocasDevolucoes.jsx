@@ -32,12 +32,12 @@ const TrocasDevolucoes = () => {
             <div className={styles.secao}>
                <h5 className={estiloBeleza.tit2}>Garantia</h5>
                <p>
-                  Nós temos a nossa maneira de garantir que todos os produtos da Jouse serão confeccionados com excelência, por isso, realmente
+                  Nós temos a nossa maneira de garantir que todos os produtos da Beleza serão confeccionados com excelência, por isso, realmente
                   acreditamos que eles farão parte da sua vida por muito tempo.
                </p>
                <br />
                <p>
-                  Nós temos a nossa maneira de garantir que todos os produtos da Jouse serão confeccionados com excelência, por isso, realmente
+                  Nós temos a nossa maneira de garantir que todos os produtos da Beleza serão confeccionados com excelência, por isso, realmente
                   acreditamos que eles farão parte da sua vida por muito tempo.
                </p>
                <div>
@@ -62,7 +62,6 @@ const TrocasDevolucoes = () => {
             {/*Secao2 */}
             <div ref={trocas} className={styles.secao}>
                <h5 className={estiloBeleza.tit2}>Trocas e devoluções</h5>
-               <p></p>
                <div>
                   <div id={styles.left}>
                      {" "}
