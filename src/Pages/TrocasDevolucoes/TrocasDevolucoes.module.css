@@ -44,7 +44,7 @@
 }
 
 .secao > div > #left > img {
-   width: fit-content;
+   width: 250px;
 }
 
 .secao > div > #right {
@@ -110,6 +110,11 @@
 
    .secTit {
       margin-top: 5px;
+   }
+
+   .secao > div > #left > img {
+      width: 70px;
+      margin-bottom: 5px;
    }
    
 }

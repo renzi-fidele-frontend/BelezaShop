@@ -3,7 +3,6 @@ import styles from "./Home.module.css";
 import lady from "../../assets/heroLady.png";
 import { Link } from "react-router-dom";
 import produto from "../../assets/ativo.png";
-import produto2 from "../../assets/ativo3.png";
 
 const Home = () => {
    return (
