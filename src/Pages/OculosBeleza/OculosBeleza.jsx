@@ -67,9 +67,9 @@ const OculosBeleza = () => {
                   </p> */}
                </div>
                <div style={{ textAlign: "center", width: "100%" }}>
-                  <a id={estiloHome.buyBtn} className={styles.cimaBtn} href="https://seguro.belezanosolhos.com.br/r/QK0BGZ7IO2">
+                  <Link id={estiloHome.buyBtn} className={styles.cimaBtn} to={"/comprar/beleza-oculos"}>
                      Compre agora
-                  </a>
+                  </Link>
                </div>
             </div>
 
