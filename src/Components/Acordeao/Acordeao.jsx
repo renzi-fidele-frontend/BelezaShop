@@ -36,7 +36,7 @@ const Acordeao = () => {
          <details>
             <summary id={styles.sum}>
                <ImFilePicture />
-               <span className={estiloBeleza.tit2}>Fotos de quem recebeu</span>
+               <span className={estiloBeleza.tit2}>Galeria dos clientes</span>
             </summary>
             <Swiper3d nrFotos={3} imagens={imagens} />
          </details>

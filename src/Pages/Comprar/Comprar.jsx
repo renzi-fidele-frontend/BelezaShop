@@ -79,7 +79,7 @@ const Comprar = () => {
                      <span>Largura Total: 15 cm</span>
                   </p>
                </ul>
-               <h5>
+               <h5 style={{color: "#00a000"}}>
                   <span id={styles.antes}>De R$ 129,99</span> Por R$ 49,99 <span id={styles.empurar}> em até 2x sem juros</span>
                </h5>
                <p id={styles.verde}>
