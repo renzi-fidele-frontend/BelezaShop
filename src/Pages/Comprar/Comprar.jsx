@@ -10,7 +10,6 @@ import Acordeao from "../../Components/Acordeao/Acordeao";
 import { Link } from "react-router-dom";
 import Galeria2 from "../../Components/Galeria2/Galeria2";
 
-
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
    const [cor, setCor] = useState("Preto Brilhante");
@@ -28,7 +27,7 @@ const Comprar = () => {
                <Galeria2 />
             </div>
             <div id={styles.right}>
-               <h3 className={estiloBeleza.tit2}>Frete grátis a partir de 2 óculos.</h3>
+               <h3 className={estiloBeleza.tit2}>Promoção Válida Até 23:59h.</h3>
                <h5>Cor</h5>
                <p>- {cor}</p>
                {/*Opções */}
@@ -79,12 +78,12 @@ const Comprar = () => {
                      <span>Largura Total: 15 cm</span>
                   </p>
                </ul>
-               <h5 style={{color: "#00a000"}}>
+               <h5 style={{ color: "#00a000", whiteSpace: "nowrap" }}>
                   <span id={styles.antes}>De R$ 129,99</span> Por R$ 49,99 <span id={styles.empurar}> em até 2x sem juros</span>
                </h5>
                <p id={styles.verde}>
                   <BsInfoCircle />
-                  <span>Entrega mais rápida do Brasil.</span>
+                  <span>Envio imediato para todo Brasil</span>
                </p>
                <a id={estiloHome.buyBtn} className={styles.buyBtn} href="https://seguro.belezanosolhos.com.br/r/QK0BGZ7IO2">
                   Compre agora

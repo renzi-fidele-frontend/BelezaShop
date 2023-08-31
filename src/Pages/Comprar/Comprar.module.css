@@ -46,21 +46,21 @@
    margin-bottom: 0.4em;
 }
 
-#cima > #right >   ul {
-   margin-top: .3em;
+#cima > #right > ul {
+   margin-top: 0.3em;
    color: var(--cor-texto2);
    display: flex;
    flex-direction: column;
    gap: 5px;
 }
 
-#cima > #right >   ul > p {
+#cima > #right > ul > p {
    display: flex;
    align-items: center;
 }
 
-#cima > #right >   ul > p > svg {
-   margin-right: 5px ;
+#cima > #right > ul > p > svg {
+   margin-right: 5px;
 }
 
 .opcoes > P::after {
@@ -71,6 +71,7 @@
 #verde {
    color: #00a000 !important;
    display: flex;
+   white-space: nowrap;
    flex-flow: row nowrap;
    align-items: center;
 }
@@ -99,6 +100,7 @@
 
 #baixo > div > div {
    padding-left: 1em;
+   white-space: nowrap;
 }
 
 #baixo > div > svg {
@@ -117,6 +119,7 @@
 
 #baixo > div > div > a {
    color: var(--cor-link);
+   white-space: nowrap;
 }
 
 #baixo > div > div > a:hover {
@@ -136,8 +139,6 @@
    margin-right: 7px;
 }
 
-
-
 @media screen and (max-width: 1277px) {
    #last {
       margin-top: 4em;
@@ -151,7 +152,6 @@
 }
 
 @media screen and (max-width: 1167px) {
-
    #ct {
       padding-block: 2em;
    }
@@ -246,7 +246,7 @@
 
 @media screen and (max-width: 547px) {
    #cima {
-      gap: .5em;
+      gap: 0.5em;
    }
 }
 
@@ -258,7 +258,6 @@
    #cima {
       gap: 0;
    }
-
 }
 
 @media screen and (max-width: 390px) {
