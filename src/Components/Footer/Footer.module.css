@@ -57,6 +57,10 @@
    line-height: 7px;
 }
 
+#baixo > #right {
+   
+}
+
 #baixo > #right > span {
    font-weight: 500;
 }

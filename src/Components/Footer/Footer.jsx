@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 import imgPagar from "../../assets/card_brands.png";
+import pagamentos from "../../assets/pagamentos.png"
 
 // React Icons
 import { BsInstagram, BsFacebook, BsLinkedin, BsYoutube } from "react-icons/bs";
@@ -33,8 +34,7 @@ const Footer = () => {
                <p>Rua Costa Barros, 2100 - Centro Comercial - São Paulo</p>
             </div>
             <div id={styles.right}>
-               <img src={imgPagar} alt="pagamentos disponiveis" />
-               
+               <img src={pagamentos} alt="pagamento seguro" />
                <p>Precisa de ajuda?</p>
                <span>suporte@belezanosolhos.com</span>
             </div>
