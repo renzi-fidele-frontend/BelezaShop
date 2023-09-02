@@ -20,10 +20,16 @@ import i7 from "../../assets/galeria/7.jpg";
 import i8 from "../../assets/galeria/8.jpg";
 import i9 from "../../assets/galeria/9.jpg";
 import i10 from "../../assets/galeria/10.jpg";
-const imagens = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10];
+import i11 from "../../assets/galeria/11.jpg";
+import i12 from "../../assets/galeria/12.jpg";
+import i13 from "../../assets/galeria/13.jpg";
+import i14 from "../../assets/galeria/14.jpg";
+import i15 from "../../assets/galeria/15.jpg";
+import i16 from "../../assets/galeria/16.jpg";
+
+const imagens = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16];
 
 const Acordeao = () => {
-
    return (
       <div id={styles.ct}>
          <details open={true}>
@@ -36,7 +42,7 @@ const Acordeao = () => {
          <details>
             <summary id={styles.sum}>
                <ImFilePicture />
-               <span className={estiloBeleza.tit2}>Galeria dos clientes</span>
+               <span className={estiloBeleza.tit2}>Recebido dos clientes</span>
             </summary>
             <Swiper3d nrFotos={3} imagens={imagens} />
          </details>

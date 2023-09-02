@@ -15,19 +15,14 @@ const Footer = () => {
                <Link to={"/contato"}>Contato</Link>
                <Link to={"/politica-de-vendas/#trocas-e-devolucoes"}>Trocas e devoluções</Link>
                <Link to={"/politica-de-vendas"}>Política de vendas</Link>
+               <a href="https://wa.link/se1wb6">Rastreie seu pedido</a>
             </div>
             <div id={styles.right}>
-               <a href="https://www.instagram.com/blznosolhos/">
+               <a href="https://www.instagram.com/blznosolhos/" target="_blank">
                   <BsInstagram />
                </a>
-               <a href="">
+               <a href="" target="_blank">
                   <BsFacebook />
-               </a>
-               <a href="">
-                  <BsLinkedin />
-               </a>
-               <a href="">
-                  <BsYoutube />
                </a>
             </div>
          </div>
@@ -39,6 +34,7 @@ const Footer = () => {
             </div>
             <div id={styles.right}>
                <img src={imgPagar} alt="pagamentos disponiveis" />
+               
                <p>Precisa de ajuda?</p>
                <span>suporte@belezanosolhos.com</span>
             </div>
