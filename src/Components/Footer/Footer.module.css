@@ -58,16 +58,13 @@
 }
 
 #baixo > #right {
-   
+
 }
 
 #baixo > #right > span {
    font-weight: 500;
 }
 
-#baixo > #right > img {
-   margin-bottom: 0.6em;
-}
 
 @media screen and (max-width: 760px) {
    #cima {
