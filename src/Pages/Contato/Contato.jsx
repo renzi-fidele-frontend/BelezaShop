@@ -15,7 +15,7 @@ const Contato = () => {
          <div id={styles.meio}>
             {" "}
             <div>
-               <a href="https://wa.link/se1wb6">
+               <a href="#">
                   <img src={zap} alt="icone do Zap" />
                </a>
                <a href="https://www.instagram.com/blznosolhos/" id={styles.afastar}>

@@ -16,7 +16,7 @@ const Footer = () => {
                <Link to={"/contato"}>Contato</Link>
                <Link to={"/politica-de-vendas/#trocas-e-devolucoes"}>Trocas e devoluções</Link>
                <Link to={"/politica-de-vendas"}>Política de vendas</Link>
-               <a href="https://wa.link/se1wb6">Rastreie seu pedido</a>
+               <a href="https://www.linkcorreios.com.br">Rastreie seu pedido</a>
             </div>
             <div id={styles.right}>
                <a href="https://www.instagram.com/blznosolhos/" target="_blank">
