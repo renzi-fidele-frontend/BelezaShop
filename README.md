@@ -1,8 +1,4 @@
-# React + Vite
+![BelezeShop_optz](https://github.com/renzi-fidele-frontend/BelezaShop/assets/101146092/c088b6e1-ec04-4578-8277-f378a64f814e)
+# Site para venda de óculos marca Beleza 👓🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desenvolvi um site de e-commerce para a venda desse incrível par de óculos usando ReactJS. Dê uma olhada no site
